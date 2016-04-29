@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TLTranstionLib_Example', :exclusive => true do
+  pod 'TLTranstionLib', :path => '../'
+end
+
+target 'TLTranstionLib_Tests', :exclusive => true do
+  pod 'TLTranstionLib', :path => '../'
+
+  pod 'Kiwi'
+end
