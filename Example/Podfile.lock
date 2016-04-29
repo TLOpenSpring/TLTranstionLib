@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - TLTranstionLib (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - TLTranstionLib (from `../`)
+
+EXTERNAL SOURCES:
+  TLTranstionLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  TLTranstionLib: f21c92114378b6f032ce8c7369927aa31abe86af
+
+COCOAPODS: 0.39.0
