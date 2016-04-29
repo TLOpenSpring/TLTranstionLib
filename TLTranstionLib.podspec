@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-   "充分利用了ios7中新增的api,自定义ViewContrller转场动画特效，该类库不仅可以在Viewcontroller之间切换使用，在UINavigationController和UItabbarController中同样适用"
-
+ "充分利用了ios7中新增的api,自定义ViewContrller转场动画特效，该类库不仅可以在Viewcontroller之间切换使用，在UINavigationController和UItabbarController中同样适用"
+                      DESC
   s.homepage         = "https://github.com/TLOpenSpring/TLTranstionLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'

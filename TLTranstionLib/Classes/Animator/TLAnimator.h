@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TLAnimator : NSObject<UINavigationControllerDelegate>
+static NSTimeInterval duration = 0.3;
+
+@interface TLAnimator : NSObject<UIViewControllerAnimatedTransitioning>
+
 
 @end
