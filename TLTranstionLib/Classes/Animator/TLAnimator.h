@@ -12,5 +12,7 @@ static NSTimeInterval duration = 0.3;
 
 @interface TLAnimator : NSObject<UIViewControllerAnimatedTransitioning>
 
+@property (nonatomic)UINavigationControllerOperation operation;
+
 
 @end

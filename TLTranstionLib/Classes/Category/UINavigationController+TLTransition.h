@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+TLTransition.h"
 
 @interface UINavigationController (TLTransition)
 

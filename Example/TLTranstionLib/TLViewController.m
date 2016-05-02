@@ -7,9 +7,11 @@
 //
 
 #import "TLViewController.h"
+#import <TLTranstionLib/UINavigationController+TLTransition.h>
+#import "TLDetailViewController.h"
 
-@interface TLViewController ()
-
+@interface TLViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic,strong)NSArray *arrayData;
 @end
 
 @implementation TLViewController
@@ -17,13 +19,44 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    _arrayData=@[@"System",@"fade"];
+    [self initialization];
+    
+    [self.tableView reloadData];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)initialization{
+
+    self.navigationController.navigationAnimatorStyle = TLAnmimatorStyleFade;
 }
+
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return _arrayData.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+   static NSString *cellId=@"cellId";
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellId];
+    if(!cell){
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+    
+    cell.textLabel.text=[_arrayData objectAtIndex:indexPath.row];
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    TLDetailViewController *detailvc=[[TLDetailViewController alloc]init];
+    [self.navigationController pushViewController:detailvc animated:YES];
+}
+
+
+
 
 @end

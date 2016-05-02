@@ -1,6 +1,0 @@
-framework module TLTranstionLib {
-  umbrella header "TLTranstionLib-umbrella.h"
-
-  export *
-  module * { export * }
-}
