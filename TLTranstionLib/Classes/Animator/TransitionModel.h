@@ -7,9 +7,8 @@
 //
 
 @import UIKit;
-#import "TLAnimator.h"
 
-@interface TransitionModel : TLAnimator
+@interface TransitionModel : NSObject
 
 
 @property (nonatomic,strong)UIViewController *toViewController;

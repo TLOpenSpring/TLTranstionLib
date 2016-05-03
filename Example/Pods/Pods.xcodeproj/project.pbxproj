@@ -50,6 +50,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>0134903173C7465906F8A9B72DFB0E4C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>763604BE6DE232E2A0AB6D24820CA739</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Kiwi/Kiwi-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>013ED832B6B246DAB484BC886523CF98</key>
 		<dict>
 			<key>fileRef</key>
@@ -140,6 +174,34 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>05410A86FD38957A337CB88810A04E18</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E2A61536EFED795D0F96868F32574CC9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>056D263E0FF61E0C542225967E8E83F6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD40C11957BA69C20D931C055AFE6F5F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>058B2682FBD1875F19EC02BDBE81CC62</key>
 		<dict>
 			<key>fileRef</key>
@@ -183,6 +245,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>08B337022B6DF3A3263D4D6678D19E67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLTransitionProxy.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0AD545FC9D10433B985EFB8CA1100A77</key>
 		<dict>
 			<key>fileRef</key>
@@ -208,19 +283,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>0C099CCB9FB67ABF89F37BDBAB48B21A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0C6B012983F9FEF8CC65C1318F5F090C</key>
 		<dict>
@@ -273,26 +335,6 @@
 			<string>KWReceiveMatcher.m</string>
 			<key>path</key>
 			<string>Classes/Matchers/KWReceiveMatcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D87AE65F78A6CDE3503D511E01FE99E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F8D3A6D85135C8D4DA9C482726A6056</string>
-				<string>ECE11F837B68486536727B9103A19E2C</string>
-				<string>E9D8D59EBB8A190793ED8F2EC7D29E72</string>
-				<string>40FF02A4600E615F7DD0C6BAD7465911</string>
-				<string>1FFE580C9F116585BBD61572E9F8A067</string>
-				<string>B34E2D2AE9E8A4123D2C74E774667066</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Category</string>
-			<key>path</key>
-			<string>Category</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -395,74 +437,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>10F50A11AC0410F58F872C167423F051</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -492,13 +466,6 @@
 			<string>Classes/Core/KWFutureObject.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11A90D87603B65D7B3FBDDBF79EFE306</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1D382A4306B38301330CE94F4B264E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>12AD95E68ADAC561BC1CF257DF39DFAE</key>
 		<dict>
@@ -576,38 +543,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>15940A6F5099542BBC89E5277C341023</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>289E9BEE56DC047986E84A4A62250648</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>16B4BFF29ECC4C6837FEBF19F3BD8A96</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -676,39 +611,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>18E905CAD8EA0FDE885880128C092AB1</key>
+		<key>19D29D668E205CF908AB6568D576B788</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>763604BE6DE232E2A0AB6D24820CA739</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Kiwi/Kiwi-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLAnimatorStyle.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1A54D6D61BF10E52541E30759C3406C0</key>
 		<dict>
@@ -803,6 +717,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>1E029B1289B102C4749C8D6A514B03AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLTransitionProxy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1E043F3C8EA3253CAEE4830175B9F33E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -874,19 +801,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FFE580C9F116585BBD61572E9F8A067</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIViewController+TLTransition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2127DC82CCFCEF8DB5610B90774F5B62</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -899,6 +813,33 @@
 			<string>NSObject+KiwiSpyAdditions.h</string>
 			<key>path</key>
 			<string>Classes/Core/NSObject+KiwiSpyAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>219F29F5CADB48BA24472FAA47B2D6A8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>47CA1DA0E14AC579E40AD76C91D8CBF8</string>
+				<string>B8BE6E300F206D75699EBC02CE0A0C5B</string>
+				<string>19D29D668E205CF908AB6568D576B788</string>
+				<string>D3B542806F0C768A7C129157AE1426E7</string>
+				<string>AB1D8468980F2893776073446189544B</string>
+				<string>B61693B55523A78E54F080249754B048</string>
+				<string>AA2F46DC969228D932C1F2C866873EBE</string>
+				<string>D84C0777071BE2D389500E9EC2011AE9</string>
+				<string>E20CAD3BB26C5D791F0269F5DF578618</string>
+				<string>FD40C11957BA69C20D931C055AFE6F5F</string>
+				<string>5748F1C7F1F5502372A63B7B24C72933</string>
+				<string>55D557703613D310E9C17BD5CDFB210D</string>
+				<string>524487B306350E4F55461A70DA94567E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Animator</string>
+			<key>path</key>
+			<string>Animator</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -998,13 +939,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>265681888A721B0550C66D023E2834F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ECE11F837B68486536727B9103A19E2C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>269D74F5FF9816A0B5B0104A8296A47C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1033,24 +967,16 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>286661F0AABADA73FCB3AC131953AE9B</key>
+		<key>2800C9E6DD41309EC7CAF603BB3171CC</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>ECC50E7046A9F2D342E3293F610FE614</string>
-				<string>0C099CCB9FB67ABF89F37BDBAB48B21A</string>
-				<string>2B42FEFEC02BDF9A31BB35A15A8B7197</string>
-				<string>3AA2B4C5319DE28DC3A6CB975081DC9E</string>
-				<string>F1D382A4306B38301330CE94F4B264E8</string>
-				<string>FC3EA58A972B3736A58AEF04550CE398</string>
-				<string>5E609067D6199A5F64A34E0923A2EB10</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Animator</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Animator</string>
+			<string>UIViewController+TLTransition.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1096,6 +1022,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>2AE03EC8AC00B40D6874D3C84678A266</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5748F1C7F1F5502372A63B7B24C72933</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>2B37274201BA74367F74426FA2BDFB36</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1111,19 +1044,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2B42FEFEC02BDF9A31BB35A15A8B7197</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLAnimatorStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2B4335ACEDE0F345250CE03A61ED697C</key>
 		<dict>
 			<key>fileRef</key>
@@ -1136,12 +1056,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>2BF18BF5E1BC87671B415E00C20CC234</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E692FD1174D587C5A29AC8D3BDF7B921</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
+				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
+				<string>FB45FFD90572718D82AB9092B750F0CA</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1229,12 +1156,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3148D5BF049A90DDD034589C97B2EA89</key>
+		<key>30FF4249E1E7B284CC5F24E55EB7F49A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A20629F6080DF132B170D4D91A46C7F8</string>
+			<key>children</key>
+			<array>
+				<string>08B337022B6DF3A3263D4D6678D19E67</string>
+				<string>1E029B1289B102C4749C8D6A514B03AF</string>
+				<string>9926D785CEDF3584562CEC7AFDB9C403</string>
+				<string>C43EC6C89C39C6082EC2E114AC6E4DBC</string>
+				<string>2800C9E6DD41309EC7CAF603BB3171CC</string>
+				<string>E692FD1174D587C5A29AC8D3BDF7B921</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Category</string>
+			<key>path</key>
+			<string>Category</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>32114A0EAFEA3D81572CCF9647D8F256</key>
 		<dict>
@@ -1322,6 +1262,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>33C5E0D4B7D4EEA2FF380569A9CC05AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>19D29D668E205CF908AB6568D576B788</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>340FF0533633E52AC545228530D99B68</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1361,20 +1315,6 @@
 			<dict>
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>35DE8804B7522F80EFD29C8A15CCA508</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F8D3A6D85135C8D4DA9C482726A6056</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
 			</dict>
 		</dict>
 		<key>364193C26C628AF267DFB00574DC6D8D</key>
@@ -1465,6 +1405,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3926C9F9E38E99EC85A26B1FDD4DF5FB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9926D785CEDF3584562CEC7AFDB9C403</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>39C9EF320622EA4DDFB86F2C00D0E71A</key>
 		<dict>
 			<key>fileRef</key>
@@ -1493,18 +1447,28 @@
 				</array>
 			</dict>
 		</dict>
-		<key>3AA2B4C5319DE28DC3A6CB975081DC9E</key>
+		<key>3BA0D5602A77E194BB7BA3DE249C50B5</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C14D73CB0C835447770A52AC1E5A04B3</string>
+				<string>33C5E0D4B7D4EEA2FF380569A9CC05AA</string>
+				<string>748957888B35531C395E32465B7058E9</string>
+				<string>FB816174911EAA1A9B64994FD9E9F153</string>
+				<string>890AF8F9E569CB44436EF27DFCD6D927</string>
+				<string>056D263E0FF61E0C542225967E8E83F6</string>
+				<string>05410A86FD38957A337CB88810A04E18</string>
+				<string>431E88520C7AFA7E9EA26987279691EA</string>
+				<string>A150598DC92E400FA111E047529C7E68</string>
+				<string>3926C9F9E38E99EC85A26B1FDD4DF5FB</string>
+				<string>7176B125ABBC8583E4F3260EB4D34401</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLFadeAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>3BC0A3EBF4E627DA4F209523652D9BD7</key>
 		<dict>
@@ -1599,6 +1563,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3E289B479953166FEC38C09A162EC7E9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AA2F46DC969228D932C1F2C866873EBE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>3E89A54D9347CD34A6448BD3C42D499D</key>
 		<dict>
 			<key>fileRef</key>
@@ -1616,7 +1587,7 @@
 			<key>children</key>
 			<array>
 				<string>0E79B6B3B8082038177512B9A15C70E6</string>
-				<string>6162EB634A2DBF2A4C7719577EBE10AD</string>
+				<string>F1FEDE0E207CA6EFAEE95F5F9723E871</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1686,19 +1657,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>40FF02A4600E615F7DD0C6BAD7465911</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UINavigationController+TLTransition.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>425B91FBE90C9080FA237E1DBBB67D75</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1713,6 +1671,20 @@
 			<string>Classes/Core/KWProbe.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>431E88520C7AFA7E9EA26987279691EA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>08B337022B6DF3A3263D4D6678D19E67</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>433CD3331B6C3787F473C941B61FC68F</key>
 		<dict>
@@ -1737,20 +1709,6 @@
 			<dict>
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>440EE46B8520ACBB88B76264FFDAA32A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ECC50E7046A9F2D342E3293F610FE614</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
 			</dict>
 		</dict>
 		<key>444C5D3845266E97F18040A78FF84096</key>
@@ -1853,6 +1811,19 @@
 			<string>KWCaptureSpy.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWCaptureSpy.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47CA1DA0E14AC579E40AD76C91D8CBF8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLAnimator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2082,20 +2053,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4CA145FB24F2B1368B333C4D88960BB3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1FFE580C9F116585BBD61572E9F8A067</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>4CB3F7F46945EE16A19F86EAB6FC5CAF</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -2297,8 +2254,8 @@
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>87341A235099510C850DE930340957BC</string>
-				<string>15940A6F5099542BBC89E5277C341023</string>
+				<string>936F5129388BB7D975B92D0A7E8410A6</string>
+				<string>9EE692796C1BD6519D2FE391859FDDE7</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -2318,6 +2275,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>524487B306350E4F55461A70DA94567E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TransitionModel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>524692B6C7B9652C7C24770BDA6991FE</key>
 		<dict>
@@ -2430,78 +2400,18 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
+		<key>55D557703613D310E9C17BD5CDFB210D</key>
 		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TransitionModel.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>55F2B1AAA0B4A59B8F965D38DBBF6CE3</key>
 		<dict>
@@ -2560,6 +2470,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>5748F1C7F1F5502372A63B7B24C72933</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFromTopAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5840E70C2729BDE22A083F0923A39A28</key>
 		<dict>
@@ -2646,19 +2569,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5E609067D6199A5F64A34E0923A2EB10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TransitionModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5EF994687607DE0A13FAF739827F6BDE</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2730,21 +2640,6 @@
 			<string>KWExistVerifier.h</string>
 			<key>path</key>
 			<string>Classes/Verifiers/KWExistVerifier.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6162EB634A2DBF2A4C7719577EBE10AD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5B4F1869F70630919E75ACBF2D1CBDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TLTranstionLib</string>
-			<key>path</key>
-			<string>TLTranstionLib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3045,37 +2940,28 @@
 				</array>
 			</dict>
 		</dict>
-		<key>6F54E4CF2B64A0E9E2835FC2BCB32327</key>
+		<key>709C59F37EDB4EB77249919C3ECE5E49</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>440EE46B8520ACBB88B76264FFDAA32A</string>
-				<string>D1D9A4DF24DDEF78979242068FD3320D</string>
-				<string>CCD19006392448192DD12B312762FC80</string>
-				<string>35DE8804B7522F80EFD29C8A15CCA508</string>
-				<string>94D8A25E6BC0614054AC0BB76BD394F7</string>
-				<string>7E20AC1D37F19084BE5DA6FD1762E8FD</string>
-				<string>4CA145FB24F2B1368B333C4D88960BB3</string>
+				<string>A0D01BBB6395A4242B84319D8FF2DB5C</string>
+				<string>F2F72E8C9A800112A751420C9758F383</string>
+				<string>3E289B479953166FEC38C09A162EC7E9</string>
+				<string>CC03B28C13C581FC2C70EBEDCACB8B4A</string>
+				<string>2AE03EC8AC00B40D6874D3C84678A266</string>
+				<string>AF1327FF9436C28898054023560F4D14</string>
+				<string>A40782088F00C270279DF3589B995EEE</string>
+				<string>D5CC3E7A2949C68F6E94D4E90B5B8677</string>
+				<string>D0DA416E90EC7C81327E2DA1315246A2</string>
+				<string>B0366D13A16358771C9F3B4836028171</string>
+				<string>2BF18BF5E1BC87671B415E00C20CC234</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>6F8D3A6D85135C8D4DA9C482726A6056</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLTransitionProxy.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7108F56D84041611FE9B454DB0C5D033</key>
 		<dict>
@@ -3094,6 +2980,20 @@
 		<dict>
 			<key>fileRef</key>
 			<string>9A41FF8DF86986A50957B4B5EBFE1F64</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7176B125ABBC8583E4F3260EB4D34401</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2800C9E6DD41309EC7CAF603BB3171CC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3142,6 +3042,52 @@
 			<dict>
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>736FCA92AE0EEBA47C1BE106B4A092BC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8BB300746301447D0C3319E811D13A15</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>748957888B35531C395E32465B7058E9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D3B542806F0C768A7C129157AE1426E7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
 			</dict>
 		</dict>
 		<key>75903F4821CEB1D48C2263CB5425EF68</key>
@@ -3345,24 +3291,53 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7CCA4879AD2AC7C6B10F13C8C4318CFB</key>
+		<key>7C6B7412033D25A4A7E18BF2F1C14D7D</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>baseConfigurationReference</key>
+			<string>E58FDA3F885A102861B6280190A7F8DC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7CB6CD5B302995F8610240D8025D4644</key>
+		<dict>
+			<key>children</key>
 			<array>
-				<string>B39BD0A23E0FB07068858C250B73DEA7</string>
-				<string>11A90D87603B65D7B3FBDDBF79EFE306</string>
-				<string>265681888A721B0550C66D023E2834F8</string>
-				<string>3148D5BF049A90DDD034589C97B2EA89</string>
-				<string>F21FC256A121F6830695897898B32222</string>
-				<string>E963F4C21D43B271101088D856CF9268</string>
-				<string>9C97FFD14E9576E45AE656682CB47F0C</string>
+				<string>E2A61536EFED795D0F96868F32574CC9</string>
+				<string>DF8EB3DDA886D51A7C458B9FF38194FE</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Model</string>
+			<key>path</key>
+			<string>Model</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7CF1B019F289F431FD6F2BE6F9D80E2F</key>
 		<dict>
@@ -3406,20 +3381,6 @@
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E20AC1D37F19084BE5DA6FD1762E8FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9D8D59EBB8A190793ED8F2EC7D29E72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>7ED80F7783A53CB8D372F2F149101AA5</key>
 		<dict>
@@ -3908,38 +3869,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87341A235099510C850DE930340957BC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C3894E59F3F24D60A4772A6E285C8C84</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>881047811C9AEF819FBFFBF3F7489A46</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3994,6 +3923,20 @@
 			<string>4CB3F7F46945EE16A19F86EAB6FC5CAF</string>
 			<key>remoteInfo</key>
 			<string>Kiwi</string>
+		</dict>
+		<key>890AF8F9E569CB44436EF27DFCD6D927</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D84C0777071BE2D389500E9EC2011AE9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>8AE266E272C6206919B917F7ADDC40A1</key>
 		<dict>
@@ -4166,24 +4109,42 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>936F5129388BB7D975B92D0A7E8410A6</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C3894E59F3F24D60A4772A6E285C8C84</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>939D88B131A673AE20DA32D9F5A62F34</key>
 		<dict>
 			<key>fileRef</key>
 			<string>FB2F56F3313E7DFFB7AD22E7776B4D95</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>94D8A25E6BC0614054AC0BB76BD394F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC3EA58A972B3736A58AEF04550CE398</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4277,6 +4238,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>9926D785CEDF3584562CEC7AFDB9C403</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UINavigationController+TLTransition.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9948FEC5DCDE74E61874DCACA88586AA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4350,6 +4324,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9BAD49BB94521A2BB5728A850CB18121</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3880719B3F2184CE0A94D282B37FA5FD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TLTranstionLib/TLTranstionLib-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>9BB934436F56A8AE6CE75D05D134C683</key>
 		<dict>
 			<key>fileRef</key>
@@ -4396,13 +4404,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>9C97FFD14E9576E45AE656682CB47F0C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B34E2D2AE9E8A4123D2C74E774667066</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>9CF91187A16B0C9C124EA54274558308</key>
 		<dict>
@@ -4489,6 +4490,38 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9EE692796C1BD6519D2FE391859FDDE7</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>289E9BEE56DC047986E84A4A62250648</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
 		<key>9EFC8CE0F9DCA952D3D480E60EA329EB</key>
 		<dict>
 			<key>children</key>
@@ -4539,6 +4572,27 @@
 				</array>
 			</dict>
 		</dict>
+		<key>A0D01BBB6395A4242B84319D8FF2DB5C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B8BE6E300F206D75699EBC02CE0A0C5B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A150598DC92E400FA111E047529C7E68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>55D557703613D310E9C17BD5CDFB210D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>A17036F6EF1D8C5BD3E52D034C0FF14C</key>
 		<dict>
 			<key>fileRef</key>
@@ -4577,6 +4631,13 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>A40782088F00C270279DF3589B995EEE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1E029B1289B102C4749C8D6A514B03AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A4A56BD197D92F58BCE7ECB0098524C3</key>
 		<dict>
@@ -4636,6 +4697,79 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>A71464B2735037B5E961FAF3F4423D3F</key>
 		<dict>
@@ -4721,6 +4855,40 @@
 				</array>
 			</dict>
 		</dict>
+		<key>A942F6FBEAA91AC0553AD293A38AAF49</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>763604BE6DE232E2A0AB6D24820CA739</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Kiwi/Kiwi-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
 		<key>A946110C96BE7836F2E70FE5096E9844</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4748,6 +4916,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>AA2F46DC969228D932C1F2C866873EBE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFadeAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>AA47DC3178A41E41561493F3D5DEAB93</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4760,6 +4941,19 @@
 			<string>NSObject+KiwiMockAdditions.h</string>
 			<key>path</key>
 			<string>Classes/Mocking/NSObject+KiwiMockAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AB1D8468980F2893776073446189544B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLDivideAnimator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4796,40 +4990,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>ADA9547A0DCD257B25F715B4288FFE4C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3880719B3F2184CE0A94D282B37FA5FD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TLTranstionLib/TLTranstionLib-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
 		<key>ADEBA6199471A3A897576A44FB677DE8</key>
 		<dict>
@@ -4874,6 +5034,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>AF1327FF9436C28898054023560F4D14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DF8EB3DDA886D51A7C458B9FF38194FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>AFD287877B8602866E5ECBDA2AC1119B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4902,6 +5069,13 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>B0366D13A16358771C9F3B4836028171</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C43EC6C89C39C6082EC2E114AC6E4DBC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B08C85D72B8464789B8D1B2C15889C50</key>
 		<dict>
@@ -4973,26 +5147,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B34E2D2AE9E8A4123D2C74E774667066</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIViewController+TLTransition.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B39BD0A23E0FB07068858C250B73DEA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0C099CCB9FB67ABF89F37BDBAB48B21A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>B3D94D5FC7545C7C92928F132DC41BAC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5048,6 +5202,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>B61693B55523A78E54F080249754B048</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFadeAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B720BBFC43D7F0593753DC1032AD4E82</key>
 		<dict>
@@ -5151,6 +5318,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B8BE6E300F206D75699EBC02CE0A0C5B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B8BFB45DDDA88D0474E3E1020C47F9D1</key>
 		<dict>
 			<key>fileRef</key>
@@ -5198,8 +5378,8 @@
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>18E905CAD8EA0FDE885880128C092AB1</string>
-				<string>F8C27014EA947D1C0750BB7D896434F1</string>
+				<string>0134903173C7465906F8A9B72DFB0E4C</string>
+				<string>A942F6FBEAA91AC0553AD293A38AAF49</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -5261,40 +5441,6 @@
 			<string>Classes/Matchers/KWBeBetweenMatcher.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BADBB5E5674625A68C5B5BEF35B7C9BD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3880719B3F2184CE0A94D282B37FA5FD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TLTranstionLib/TLTranstionLib-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>BAECFD2DCDFB036383C1676992889FE5</key>
 		<dict>
@@ -5526,6 +5672,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>C14D73CB0C835447770A52AC1E5A04B3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>47CA1DA0E14AC579E40AD76C91D8CBF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>C1C285574B269EB1FA0D37DBF2837E78</key>
 		<dict>
 			<key>fileRef</key>
@@ -5576,6 +5736,19 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-TLTranstionLib_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C43EC6C89C39C6082EC2E114AC6E4DBC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UINavigationController+TLTransition.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5812,6 +5985,13 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>CC03B28C13C581FC2C70EBEDCACB8B4A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E20CAD3BB26C5D791F0269F5DF578618</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>CC93F3E0220D3E5EA559F73C51B2C157</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5826,52 +6006,6 @@
 			<string>Classes/Matchers/KWReceiveMatcher.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCD19006392448192DD12B312762FC80</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3AA2B4C5319DE28DC3A6CB975081DC9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CD0DC41E4F3F913BAE7EB76B896D63FB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E58FDA3F885A102861B6280190A7F8DC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>CD124524719D34925ABC946FB08E25ED</key>
 		<dict>
@@ -5987,6 +6121,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D0DA416E90EC7C81327E2DA1315246A2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>524487B306350E4F55461A70DA94567E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D0DF7F4B9AB77029A595687344025114</key>
 		<dict>
 			<key>fileRef</key>
@@ -6015,38 +6156,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>D165D74BFEEEB20A0ABA22584154E700</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8BB300746301447D0C3319E811D13A15</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>D1AB47BDC219AC99048DF1B79C0A5AD4</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6062,20 +6171,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D1D9A4DF24DDEF78979242068FD3320D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B42FEFEC02BDF9A31BB35A15A8B7197</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>D3553F4A12DD74F061F2FE11150BF1B9</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6088,6 +6183,19 @@
 			<string>NSMethodSignature+KiwiAdditions.h</string>
 			<key>path</key>
 			<string>Classes/Core/NSMethodSignature+KiwiAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D3B542806F0C768A7C129157AE1426E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLDivideAnimator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -6227,6 +6335,13 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>D5CC3E7A2949C68F6E94D4E90B5B8677</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A20629F6080DF132B170D4D91A46C7F8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D67136524A364E07FB7F2ECD981D2A9F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6255,6 +6370,36 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>D74B1C349441F5E874B0BE16F1F203B1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>219F29F5CADB48BA24472FAA47B2D6A8</string>
+				<string>30FF4249E1E7B284CC5F24E55EB7F49A</string>
+				<string>7CB6CD5B302995F8610240D8025D4644</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D84C0777071BE2D389500E9EC2011AE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFromLeftAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D8C320F00818473B17A689AFFA846047</key>
 		<dict>
@@ -6342,8 +6487,8 @@
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>ADA9547A0DCD257B25F715B4288FFE4C</string>
-				<string>BADBB5E5674625A68C5B5BEF35B7C9BD</string>
+				<string>9BAD49BB94521A2BB5728A850CB18121</string>
+				<string>F716B1B4BCE12E4BC5953A14A8492978</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -6372,9 +6517,9 @@
 			<string>DB2F61D57224BF961354C8658D34211C</string>
 			<key>buildPhases</key>
 			<array>
-				<string>7CCA4879AD2AC7C6B10F13C8C4318CFB</string>
+				<string>709C59F37EDB4EB77249919C3ECE5E49</string>
 				<string>990DCC08F4B17DE323FB62FB2FCEC713</string>
-				<string>6F54E4CF2B64A0E9E2835FC2BCB32327</string>
+				<string>3BA0D5602A77E194BB7BA3DE249C50B5</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -6410,6 +6555,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>DF8EB3DDA886D51A7C458B9FF38194FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLSnapshotModel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DFA7A386B3F147214F8F91B82042EEB0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6437,6 +6595,32 @@
 			<string>KWStringUtilities.m</string>
 			<key>path</key>
 			<string>Classes/Core/KWStringUtilities.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E20CAD3BB26C5D791F0269F5DF578618</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFromLeftAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E2A61536EFED795D0F96868F32574CC9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLSnapshotModel.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -6531,6 +6715,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>E692FD1174D587C5A29AC8D3BDF7B921</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIViewController+TLTransition.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E6E263AA073050A569B826F0671474DA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6601,26 +6798,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>E963F4C21D43B271101088D856CF9268</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40FF02A4600E615F7DD0C6BAD7465911</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9D8D59EBB8A190793ED8F2EC7D29E72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UINavigationController+TLTransition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EABED1784F6BB7BDA4262D5D95B78D03</key>
 		<dict>
@@ -6773,32 +6950,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>ECC50E7046A9F2D342E3293F610FE614</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECE11F837B68486536727B9103A19E2C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLTransitionProxy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ECE17770FBD59CC34C82C788CA1594F8</key>
 		<dict>
@@ -6997,25 +7148,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F1D382A4306B38301330CE94F4B264E8</key>
+		<key>F1FEDE0E207CA6EFAEE95F5F9723E871</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>D74B1C349441F5E874B0BE16F1F203B1</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TLTranstionLib</string>
 			<key>path</key>
-			<string>TLFadeAnimator.m</string>
+			<string>TLTranstionLib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F21FC256A121F6830695897898B32222</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E609067D6199A5F64A34E0923A2EB10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>F22DEB7539D40A0EB39CE51F68BADC8A</key>
 		<dict>
@@ -7035,8 +7181,8 @@
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>D165D74BFEEEB20A0ABA22584154E700</string>
-				<string>CD0DC41E4F3F913BAE7EB76B896D63FB</string>
+				<string>736FCA92AE0EEBA47C1BE106B4A092BC</string>
+				<string>7C6B7412033D25A4A7E18BF2F1C14D7D</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -7044,6 +7190,13 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>F2F72E8C9A800112A751420C9758F383</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB1D8468980F2893776073446189544B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F32D7452ECD4236EE5FE7C1A8AFADA61</key>
 		<dict>
@@ -7088,22 +7241,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F5B4F1869F70630919E75ACBF2D1CBDE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>286661F0AABADA73FCB3AC131953AE9B</string>
-				<string>0D87AE65F78A6CDE3503D511E01FE99E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F6DF974712AC5B4DF955A8A5F9546FAD</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -7118,6 +7255,40 @@
 			<string>Classes/Core/KWObjCUtilities.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F716B1B4BCE12E4BC5953A14A8492978</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3880719B3F2184CE0A94D282B37FA5FD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TLTranstionLib/TLTranstionLib-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>F723C29E6ABBA2D5DEE078FD25B2EAD6</key>
 		<dict>
@@ -7145,40 +7316,6 @@
 			<string>4CE78E0944B203D2CF8107E203F5CEC5</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F8C27014EA947D1C0750BB7D896434F1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>763604BE6DE232E2A0AB6D24820CA739</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Kiwi/Kiwi-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>F96DBA68D694300602064C18E6C939AB</key>
 		<dict>
@@ -7269,18 +7406,87 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FC3EA58A972B3736A58AEF04550CE398</key>
+		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TransitionModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FB816174911EAA1A9B64994FD9E9F153</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B61693B55523A78E54F080249754B048</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>FC51E74D7BE68E98218D20D13B463FAA</key>
 		<dict>
@@ -7335,6 +7541,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>FD40C11957BA69C20D931C055AFE6F5F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFromTopAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FD78F3F6F7E7E302B3EEB8F930993F04</key>
 		<dict>

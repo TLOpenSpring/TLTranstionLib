@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4904C3951CD87112008D3298 /* TLTest1Ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904C3941CD87112008D3298 /* TLTest1Ctrl.m */; };
+		4904C3981CD87123008D3298 /* TLTest2Ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904C3971CD87123008D3298 /* TLTest2Ctrl.m */; };
+		4904C39B1CD87137008D3298 /* TLTest3Ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904C39A1CD87137008D3298 /* TLTest3Ctrl.m */; };
+		4904C39E1CD87144008D3298 /* TLTest4Ctrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904C39D1CD87144008D3298 /* TLTest4Ctrl.m */; };
+		4904C3A41CD87A6C008D3298 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904C39F1CD87A6C008D3298 /* 1.png */; };
+		4904C3A51CD87A6C008D3298 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904C3A01CD87A6C008D3298 /* 2.png */; };
+		4904C3A61CD87A6C008D3298 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904C3A11CD87A6C008D3298 /* 3.png */; };
+		4904C3A71CD87A6C008D3298 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904C3A21CD87A6C008D3298 /* 4.png */; };
+		4904C3A81CD87A6C008D3298 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904C3A31CD87A6C008D3298 /* 5.png */; };
 		4996266C1CD7017C008CAE7C /* libTLTranstionLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4996266B1CD7017C008CAE7C /* libTLTranstionLib.a */; };
 		4996266F1CD70296008CAE7C /* TLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996266E1CD70296008CAE7C /* TLDetailViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -40,6 +49,19 @@
 /* Begin PBXFileReference section */
 		02E644EAF080F240097AF3A2 /* libPods-TLTranstionLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLTranstionLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9AB3F458CCD7EF79BBDC12 /* TLTranstionLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLTranstionLib.podspec; path = ../TLTranstionLib.podspec; sourceTree = "<group>"; };
+		4904C3931CD87112008D3298 /* TLTest1Ctrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTest1Ctrl.h; sourceTree = "<group>"; };
+		4904C3941CD87112008D3298 /* TLTest1Ctrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTest1Ctrl.m; sourceTree = "<group>"; };
+		4904C3961CD87123008D3298 /* TLTest2Ctrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTest2Ctrl.h; sourceTree = "<group>"; };
+		4904C3971CD87123008D3298 /* TLTest2Ctrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTest2Ctrl.m; sourceTree = "<group>"; };
+		4904C3991CD87137008D3298 /* TLTest3Ctrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTest3Ctrl.h; sourceTree = "<group>"; };
+		4904C39A1CD87137008D3298 /* TLTest3Ctrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTest3Ctrl.m; sourceTree = "<group>"; };
+		4904C39C1CD87144008D3298 /* TLTest4Ctrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTest4Ctrl.h; sourceTree = "<group>"; };
+		4904C39D1CD87144008D3298 /* TLTest4Ctrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTest4Ctrl.m; sourceTree = "<group>"; };
+		4904C39F1CD87A6C008D3298 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4904C3A01CD87A6C008D3298 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4904C3A11CD87A6C008D3298 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4904C3A21CD87A6C008D3298 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		4904C3A31CD87A6C008D3298 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		499626661CD6FF60008CAE7C /* TLTranstionLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TLTranstionLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TLTranstionLib-fxxxldhcdhiwfdanbsbeykhcifkc/Build/Products/Debug-iphoneos/TLTranstionLib.framework"; sourceTree = "<group>"; };
 		4996266B1CD7017C008CAE7C /* libTLTranstionLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTLTranstionLib.a; path = "Pods/../build/Debug-iphoneos/libTLTranstionLib.a"; sourceTree = "<group>"; };
 		4996266D1CD70296008CAE7C /* TLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDetailViewController.h; sourceTree = "<group>"; };
@@ -100,6 +122,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4904C3921CD870DD008D3298 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4996266D1CD70296008CAE7C /* TLDetailViewController.h */,
+				4996266E1CD70296008CAE7C /* TLDetailViewController.m */,
+				4904C3931CD87112008D3298 /* TLTest1Ctrl.h */,
+				4904C3941CD87112008D3298 /* TLTest1Ctrl.m */,
+				4904C3961CD87123008D3298 /* TLTest2Ctrl.h */,
+				4904C3971CD87123008D3298 /* TLTest2Ctrl.m */,
+				4904C3991CD87137008D3298 /* TLTest3Ctrl.h */,
+				4904C39A1CD87137008D3298 /* TLTest3Ctrl.m */,
+				4904C39C1CD87144008D3298 /* TLTest4Ctrl.h */,
+				4904C39D1CD87144008D3298 /* TLTest4Ctrl.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4904C3A91CD87A71008D3298 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4904C39F1CD87A6C008D3298 /* 1.png */,
+				4904C3A01CD87A6C008D3298 /* 2.png */,
+				4904C3A11CD87A6C008D3298 /* 3.png */,
+				4904C3A21CD87A6C008D3298 /* 4.png */,
+				4904C3A31CD87A6C008D3298 /* 5.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		575FFA16A4F0ED91A4CF6D4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +201,7 @@
 		6003F593195388D20070C39A /* Example for TLTranstionLib */ = {
 			isa = PBXGroup;
 			children = (
+				4904C3921CD870DD008D3298 /* ViewController */,
 				6003F59C195388D20070C39A /* TLAppDelegate.h */,
 				6003F59D195388D20070C39A /* TLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -157,8 +209,6 @@
 				6003F5A6195388D20070C39A /* TLViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				4996266D1CD70296008CAE7C /* TLDetailViewController.h */,
-				4996266E1CD70296008CAE7C /* TLDetailViewController.m */,
 			);
 			name = "Example for TLTranstionLib";
 			path = TLTranstionLib;
@@ -167,6 +217,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4904C3A91CD87A71008D3298 /* images */,
 				6003F595195388D20070C39A /* TLTranstionLib-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -258,6 +309,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Andrew;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DA9X37GALQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -287,8 +341,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4904C3A71CD87A6C008D3298 /* 4.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4904C3A61CD87A6C008D3298 /* 3.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				4904C3A41CD87A6C008D3298 /* 1.png in Resources */,
+				4904C3A81CD87A6C008D3298 /* 5.png in Resources */,
+				4904C3A51CD87A6C008D3298 /* 2.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,8 +461,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TLAppDelegate.m in Sources */,
+				4904C39E1CD87144008D3298 /* TLTest4Ctrl.m in Sources */,
+				4904C3981CD87123008D3298 /* TLTest2Ctrl.m in Sources */,
 				4996266F1CD70296008CAE7C /* TLDetailViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* TLViewController.m in Sources */,
+				4904C39B1CD87137008D3298 /* TLTest3Ctrl.m in Sources */,
+				4904C3951CD87112008D3298 /* TLTest1Ctrl.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,17 +588,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLTranstionLib/TLTranstionLib-Prefix.pch";
 				INFOPLIST_FILE = "TLTranstionLib/TLTranstionLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tongli.demo.TLTranstionLib-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -546,17 +612,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLTranstionLib/TLTranstionLib-Prefix.pch";
 				INFOPLIST_FILE = "TLTranstionLib/TLTranstionLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tongli.demo.TLTranstionLib-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

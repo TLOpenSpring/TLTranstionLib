@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TransitionModel.h"
 
 static NSTimeInterval duration = 0.3;
 

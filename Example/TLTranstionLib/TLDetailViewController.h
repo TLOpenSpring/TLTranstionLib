@@ -10,4 +10,8 @@
 
 @interface TLDetailViewController : UIViewController
 
+@property (nonatomic,strong)UIImageView *bgIv;
+
+-(UIViewController *)getCurrentVC;
+
 @end

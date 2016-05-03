@@ -11,9 +11,11 @@
 
 
 typedef NS_ENUM (NSInteger, TLAnimatorStyle) {
-    TLAnmimatorStyleSystem = 1 << 0,
-    TLAnmimatorStyleFade   = 1 << 1,
-    TLAnmimatorStyleDivide = 1 << 2,
+    TLAnmimatorStyleSystem  =   1 << 0,
+    TLAnmimatorStyleFade    =   1 << 1,
+    TLAnmimatorStyleDivide  =   1 << 2,
+    TLAnmimatorStyleFromTop =   1 << 3,
+    TLAnmimatorStyleFromLeft=   1 << 4,
     TLAnmimatorStyleNone = 1 << 100
 };
 

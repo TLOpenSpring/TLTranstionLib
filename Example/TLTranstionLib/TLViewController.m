@@ -8,7 +8,7 @@
 
 #import "TLViewController.h"
 #import <TLTranstionLib/UINavigationController+TLTransition.h>
-#import "TLDetailViewController.h"
+#import "TLTest1Ctrl.h"
 
 @interface TLViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)NSArray *arrayData;
@@ -19,8 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor whiteColor];
     
-    _arrayData=@[@"System",@"fade"];
+    _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -28,7 +29,7 @@
 
 -(void)initialization{
 
-    self.navigationController.navigationAnimatorStyle = TLAnmimatorStyleFade;
+  
 }
 
 
@@ -48,11 +49,29 @@
     }
     
     cell.textLabel.text=[_arrayData objectAtIndex:indexPath.row];
+    cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    TLDetailViewController *detailvc=[[TLDetailViewController alloc]init];
+    NSString *style=[_arrayData objectAtIndex:indexPath.row];
+   
+    
+    if([style isEqualToString:@"System"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleSystem;
+      
+    }else if([style isEqualToString:@"Fade"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleFade;
+    }else if([style isEqualToString:@"Devide"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleDivide;
+    }else if([style isEqualToString:@"FromTop"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleFromTop;
+    }else if([style isEqualToString:@"FromLeft"]){
+        self.navigationController.animatorStyle = TLAnmimatorStyleFromLeft;
+    }
+    
+    
+    TLTest1Ctrl *detailvc=[[TLTest1Ctrl alloc]init];
     [self.navigationController pushViewController:detailvc animated:YES];
 }
 

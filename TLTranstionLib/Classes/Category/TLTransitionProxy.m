@@ -7,27 +7,18 @@
 //
 
 #import "TLTransitionProxy.h"
-#import "TLAnimatorStyle.h"
-#import "TLAnimator.h"
-#import "TLFadeAnimator.h"
+#import "TLDivideAnimator.h"
+
 
 @interface TLTransitionProxy()
-@property (nonatomic,weak)id<UINavigationControllerDelegate> delegate;
-@property (nonatomic,strong)TLAnimator *tlAnimator;
 
-@property (nonatomic,assign)TLAnimatorStyle animatorStyle;
-
-/**
- *  自定义的Animator
- */
-@property (nonatomic,strong)TLFadeAnimator *tlfadeAnimator;
 @end
 
 @implementation TLTransitionProxy
 -(instancetype)init{
-    if(self){
-        _delegate=nil;
-    }
+  
+    _delegate=nil;
+    
     return self;
 }
 
@@ -69,7 +60,7 @@
 
 -(void)setAnimatorStyle:(TLAnimatorStyle)animatorStyle{
     _animatorStyle=animatorStyle;
-    
+    self.tlAnimator=[self TL_animatorTransitionForStyle:animatorStyle];
 }
 /**
  *  根据设置的动画样式设置动画类型
@@ -86,19 +77,48 @@
         case TLAnmimatorStyleFade:
             baseAnimator=[self tlfadeAnimator];
             break;
-            
+        case TLAnmimatorStyleDivide:
+            baseAnimator=[self tlDivideAnimator];
+            break;
+        case TLAnmimatorStyleFromTop:
+            baseAnimator=[self tlfromTopAnimator];
+            break;
+        case TLAnmimatorStyleFromLeft:
+            baseAnimator=[self tlFromLeftAnimator];
+            break;
         default:
             break;
     }
     
-    return _tlAnimator;
+    return baseAnimator;
 }
 
+#pragma mark 
+#pragma mark 自定义的转场动画
 -(TLFadeAnimator *)tlfadeAnimator{
     if(!_tlfadeAnimator){
         _tlfadeAnimator=[[TLFadeAnimator alloc]init];
     }
     return _tlfadeAnimator;
+}
+
+-(TLDivideAnimator*)tlDivideAnimator{
+    if(!_tlDivideAnimator){
+        _tlDivideAnimator=[[TLDivideAnimator alloc]init];
+    }
+    return _tlDivideAnimator;
+}
+-(TLFromTopAnimator *)tlfromTopAnimator{
+    if(!_tlfromTopAnimator){
+        _tlfromTopAnimator=[[TLFromTopAnimator alloc]init];
+    }
+    return _tlfromTopAnimator;
+}
+-(TLFromLeftAnimator*)tlFromLeftAnimator{
+    if(!_tlFromLeftAnimator){
+        _tlFromLeftAnimator=[[TLFromLeftAnimator alloc]init];
+    }
+    return _tlFromLeftAnimator;
 }
 
 
