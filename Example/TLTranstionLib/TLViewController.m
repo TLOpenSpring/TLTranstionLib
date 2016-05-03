@@ -21,7 +21,8 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     
-    _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft"];
+    _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
+                 @"FlipOver"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -68,6 +69,8 @@
         self.navigationController.animatorStyle=TLAnmimatorStyleFromTop;
     }else if([style isEqualToString:@"FromLeft"]){
         self.navigationController.animatorStyle = TLAnmimatorStyleFromLeft;
+    }else if([style isEqualToString:@"FlipOver"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleFlipOver;
     }
     
     

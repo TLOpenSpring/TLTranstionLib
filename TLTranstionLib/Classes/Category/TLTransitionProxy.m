@@ -86,6 +86,9 @@
         case TLAnmimatorStyleFromLeft:
             baseAnimator=[self tlFromLeftAnimator];
             break;
+        case TLAnmimatorStyleFlipOver:
+            baseAnimator=[self tlFlipOverAnimator];
+            break;
         default:
             break;
     }
@@ -119,6 +122,13 @@
         _tlFromLeftAnimator=[[TLFromLeftAnimator alloc]init];
     }
     return _tlFromLeftAnimator;
+}
+
+-(TLFlipOverAnimator *)tlFlipOverAnimator{
+    if(!_tlFlipOverAnimator){
+        _tlFlipOverAnimator=[[TLFlipOverAnimator alloc]init];
+    }
+    return _tlFlipOverAnimator;
 }
 
 

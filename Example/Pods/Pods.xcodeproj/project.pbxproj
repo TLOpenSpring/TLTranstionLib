@@ -108,6 +108,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>025E3F3E712D2862B17A8D69204A7AA2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLSnapshotModel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>030105578DD4AEA335965E9C786A9AC5</key>
 		<dict>
 			<key>fileRef</key>
@@ -174,34 +187,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>05410A86FD38957A337CB88810A04E18</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2A61536EFED795D0F96868F32574CC9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>056D263E0FF61E0C542225967E8E83F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD40C11957BA69C20D931C055AFE6F5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>058B2682FBD1875F19EC02BDBE81CC62</key>
 		<dict>
 			<key>fileRef</key>
@@ -245,18 +230,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>08B337022B6DF3A3263D4D6678D19E67</key>
+		<key>09FBDA18C6CA997391200755AF9D5322</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>025E3F3E712D2862B17A8D69204A7AA2</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLTransitionProxy.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0AD545FC9D10433B985EFB8CA1100A77</key>
 		<dict>
@@ -272,6 +251,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>0B51647ED4F710E478A6FDE984AB458E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFromTopAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0BE4E7F1EBB10CD1030D5A9AD2C8D9C5</key>
 		<dict>
 			<key>fileRef</key>
@@ -283,6 +275,13 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>0C510700ADDBBB851C7BBA08B48ADC9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A70FC8BFA99BC48DCE21585286AAA8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0C6B012983F9FEF8CC65C1318F5F090C</key>
 		<dict>
@@ -422,6 +421,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>1055C3ADEA59ECD3ECCC4C352BC3D43E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TransitionModel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>10C7EB66A482AD876BC91F9D96D0830A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -543,6 +555,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>158F8C140825E25572717DB2CF38D952</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>16B4BFF29ECC4C6837FEBF19F3BD8A96</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -608,19 +633,6 @@
 			<string>KWMessagePattern.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWMessagePattern.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19D29D668E205CF908AB6568D576B788</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLAnimatorStyle.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -717,19 +729,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>1E029B1289B102C4749C8D6A514B03AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLTransitionProxy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1E043F3C8EA3253CAEE4830175B9F33E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -813,33 +812,6 @@
 			<string>NSObject+KiwiSpyAdditions.h</string>
 			<key>path</key>
 			<string>Classes/Core/NSObject+KiwiSpyAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>219F29F5CADB48BA24472FAA47B2D6A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>47CA1DA0E14AC579E40AD76C91D8CBF8</string>
-				<string>B8BE6E300F206D75699EBC02CE0A0C5B</string>
-				<string>19D29D668E205CF908AB6568D576B788</string>
-				<string>D3B542806F0C768A7C129157AE1426E7</string>
-				<string>AB1D8468980F2893776073446189544B</string>
-				<string>B61693B55523A78E54F080249754B048</string>
-				<string>AA2F46DC969228D932C1F2C866873EBE</string>
-				<string>D84C0777071BE2D389500E9EC2011AE9</string>
-				<string>E20CAD3BB26C5D791F0269F5DF578618</string>
-				<string>FD40C11957BA69C20D931C055AFE6F5F</string>
-				<string>5748F1C7F1F5502372A63B7B24C72933</string>
-				<string>55D557703613D310E9C17BD5CDFB210D</string>
-				<string>524487B306350E4F55461A70DA94567E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Animator</string>
-			<key>path</key>
-			<string>Animator</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -954,6 +926,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>26F08B077277044F2C3FC10AA233F17E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UINavigationController+TLTransition.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27287440ECB97BB392FC520E6FF44779</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD25604BDC87E6DDFED6AB14C1EED6CF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>279AA6492631DEFA8C439A9C088EEB8A</key>
 		<dict>
 			<key>isa</key>
@@ -967,19 +959,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>2800C9E6DD41309EC7CAF603BB3171CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIViewController+TLTransition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>289E9BEE56DC047986E84A4A62250648</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -992,6 +971,20 @@
 			<string>Pods-TLTranstionLib_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28FB24BAF77DD74466BAF22428A1F4AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B16044CDDCA54E9C6BE24503B9A1A52D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>29D324DC93DB90202C07CDDE42624412</key>
 		<dict>
@@ -1022,13 +1015,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2AE03EC8AC00B40D6874D3C84678A266</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5748F1C7F1F5502372A63B7B24C72933</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>2B37274201BA74367F74426FA2BDFB36</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1055,13 +1041,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>2BF18BF5E1BC87671B415E00C20CC234</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E692FD1174D587C5A29AC8D3BDF7B921</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -1156,26 +1135,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>30FF4249E1E7B284CC5F24E55EB7F49A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>08B337022B6DF3A3263D4D6678D19E67</string>
-				<string>1E029B1289B102C4749C8D6A514B03AF</string>
-				<string>9926D785CEDF3584562CEC7AFDB9C403</string>
-				<string>C43EC6C89C39C6082EC2E114AC6E4DBC</string>
-				<string>2800C9E6DD41309EC7CAF603BB3171CC</string>
-				<string>E692FD1174D587C5A29AC8D3BDF7B921</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Category</string>
-			<key>path</key>
-			<string>Category</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>32114A0EAFEA3D81572CCF9647D8F256</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1188,6 +1147,33 @@
 			<string>KWBeEmptyMatcher.h</string>
 			<key>path</key>
 			<string>Classes/Matchers/KWBeEmptyMatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3216AAB789B5CF9014353C337BBFFF11</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8DAC851F6F4554D6402A6421553A0BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>32214F394FF0259EDF3A0F86E55ED8F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFlipOverAnimator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1262,20 +1248,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>33C5E0D4B7D4EEA2FF380569A9CC05AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19D29D668E205CF908AB6568D576B788</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>340FF0533633E52AC545228530D99B68</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1290,6 +1262,20 @@
 			<string>Classes/Matchers/KWContainMatcher.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3422219E1BC30E334B8EB7B1BF606EB9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>77A2A6041F1D6E73F9401D3E06A63260</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>350E0FAC40839054F96D4CD2C3120E3F</key>
 		<dict>
@@ -1405,20 +1391,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3926C9F9E38E99EC85A26B1FDD4DF5FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9926D785CEDF3584562CEC7AFDB9C403</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>39C9EF320622EA4DDFB86F2C00D0E71A</key>
 		<dict>
 			<key>fileRef</key>
@@ -1446,29 +1418,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>3BA0D5602A77E194BB7BA3DE249C50B5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C14D73CB0C835447770A52AC1E5A04B3</string>
-				<string>33C5E0D4B7D4EEA2FF380569A9CC05AA</string>
-				<string>748957888B35531C395E32465B7058E9</string>
-				<string>FB816174911EAA1A9B64994FD9E9F153</string>
-				<string>890AF8F9E569CB44436EF27DFCD6D927</string>
-				<string>056D263E0FF61E0C542225967E8E83F6</string>
-				<string>05410A86FD38957A337CB88810A04E18</string>
-				<string>431E88520C7AFA7E9EA26987279691EA</string>
-				<string>A150598DC92E400FA111E047529C7E68</string>
-				<string>3926C9F9E38E99EC85A26B1FDD4DF5FB</string>
-				<string>7176B125ABBC8583E4F3260EB4D34401</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>3BC0A3EBF4E627DA4F209523652D9BD7</key>
 		<dict>
@@ -1562,13 +1511,6 @@
 			<string>Classes/Core/KWExampleDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E289B479953166FEC38C09A162EC7E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA2F46DC969228D932C1F2C866873EBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>3E89A54D9347CD34A6448BD3C42D499D</key>
 		<dict>
@@ -1672,20 +1614,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>431E88520C7AFA7E9EA26987279691EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08B337022B6DF3A3263D4D6678D19E67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>433CD3331B6C3787F473C941B61FC68F</key>
 		<dict>
 			<key>children</key>
@@ -1723,6 +1651,19 @@
 			<string>KWChangeMatcher.m</string>
 			<key>path</key>
 			<string>Classes/Matchers/KWChangeMatcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4550B21B28B8F2340A8F5C2526E852B7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLAnimatorStyle.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1811,19 +1752,6 @@
 			<string>KWCaptureSpy.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWCaptureSpy.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47CA1DA0E14AC579E40AD76C91D8CBF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLAnimator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1982,6 +1910,13 @@
 			<string>Classes/Core/KWFormatter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>49119325B73B1AD36B49048CDD948F5B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1055C3ADEA59ECD3ECCC4C352BC3D43E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>49EB9DFD75E25851CCBF6F801C4403C2</key>
 		<dict>
@@ -2276,19 +2211,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>524487B306350E4F55461A70DA94567E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TransitionModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>524692B6C7B9652C7C24770BDA6991FE</key>
 		<dict>
 			<key>fileRef</key>
@@ -2400,19 +2322,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>55D557703613D310E9C17BD5CDFB210D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TransitionModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>55F2B1AAA0B4A59B8F965D38DBBF6CE3</key>
 		<dict>
 			<key>fileRef</key>
@@ -2471,18 +2380,26 @@
 				</array>
 			</dict>
 		</dict>
-		<key>5748F1C7F1F5502372A63B7B24C72933</key>
+		<key>577AF8AA49F4F28F6794A55CEEF1E984</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>7D300A62BFE0B8B92651037BB267B556</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLFromTopAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>57D92347BD210CA59979C44C8E728CF2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C2BE91A55B94D8E5711C4D8CFA1A6639</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>5840E70C2729BDE22A083F0923A39A28</key>
 		<dict>
@@ -2512,6 +2429,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>5B36448435253FE7E21CCEF436960B34</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLTransitionProxy.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5B5F35A1AD8B4E11BE29A1B5118315B3</key>
 		<dict>
@@ -2643,6 +2573,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>61E7F1308701C02CE8C1371B0224AA12</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4550B21B28B8F2340A8F5C2526E852B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>626F497F8A0CFA26D7A2C1346E09A85A</key>
 		<dict>
 			<key>fileRef</key>
@@ -2684,6 +2628,13 @@
 			<string>Pods-TLTranstionLib_Tests-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>642847D3D1E06CBBB395155B80794990</key>
+		<dict>
+			<key>fileRef</key>
+			<string>915F09EAF1737EFFD1435FCAA5B3B210</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>642CCA03962A800EF3D38B25D96B8887</key>
 		<dict>
@@ -2855,6 +2806,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6A70FC8BFA99BC48DCE21585286AAA8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFadeAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>6B3BD4CC2C0974C5FF8EDEB524ED095B</key>
 		<dict>
 			<key>fileRef</key>
@@ -2940,29 +2904,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>709C59F37EDB4EB77249919C3ECE5E49</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A0D01BBB6395A4242B84319D8FF2DB5C</string>
-				<string>F2F72E8C9A800112A751420C9758F383</string>
-				<string>3E289B479953166FEC38C09A162EC7E9</string>
-				<string>CC03B28C13C581FC2C70EBEDCACB8B4A</string>
-				<string>2AE03EC8AC00B40D6874D3C84678A266</string>
-				<string>AF1327FF9436C28898054023560F4D14</string>
-				<string>A40782088F00C270279DF3589B995EEE</string>
-				<string>D5CC3E7A2949C68F6E94D4E90B5B8677</string>
-				<string>D0DA416E90EC7C81327E2DA1315246A2</string>
-				<string>B0366D13A16358771C9F3B4836028171</string>
-				<string>2BF18BF5E1BC87671B415E00C20CC234</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>7108F56D84041611FE9B454DB0C5D033</key>
 		<dict>
 			<key>children</key>
@@ -2980,20 +2921,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>9A41FF8DF86986A50957B4B5EBFE1F64</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7176B125ABBC8583E4F3260EB4D34401</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2800C9E6DD41309EC7CAF603BB3171CC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3076,19 +3003,12 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>748957888B35531C395E32465B7058E9</key>
+		<key>756393CCF24D8434E3B3F1B8B6C2F6A3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D3B542806F0C768A7C129157AE1426E7</string>
+			<string>A20629F6080DF132B170D4D91A46C7F8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>75903F4821CEB1D48C2263CB5425EF68</key>
 		<dict>
@@ -3168,6 +3088,19 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-TLTranstionLib_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77A2A6041F1D6E73F9401D3E06A63260</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TransitionModel.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3323,22 +3256,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>7CB6CD5B302995F8610240D8025D4644</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2A61536EFED795D0F96868F32574CC9</string>
-				<string>DF8EB3DDA886D51A7C458B9FF38194FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7CF1B019F289F431FD6F2BE6F9D80E2F</key>
 		<dict>
 			<key>fileRef</key>
@@ -3350,6 +3267,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>7D300A62BFE0B8B92651037BB267B556</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFlipOverAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7DB23F1CE17DCB42075BF8F4F5A2D908</key>
 		<dict>
@@ -3635,6 +3565,30 @@
 				</array>
 			</dict>
 		</dict>
+		<key>7FAC5222397445A2B0525728E21CC2FB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>939991D55F1929CE20102E74F513C28B</string>
+				<string>61E7F1308701C02CE8C1371B0224AA12</string>
+				<string>28FB24BAF77DD74466BAF22428A1F4AB</string>
+				<string>3216AAB789B5CF9014353C337BBFFF11</string>
+				<string>577AF8AA49F4F28F6794A55CEEF1E984</string>
+				<string>94C5EF530BB55CCF2F68DC0B1D35672A</string>
+				<string>CA3ECD08489A5D956F81210152C4DB3D</string>
+				<string>C21A710C29312AA55F44282F138DF758</string>
+				<string>DE89FA0E0A48E4BB75A74340AA3DE2D3</string>
+				<string>3422219E1BC30E334B8EB7B1BF606EB9</string>
+				<string>8ECEDBA0954855F2B8676D16EF0A1FB7</string>
+				<string>CAD1271A710D55516AEAD9CA6F844780</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>80249E0F3772F1A20EB82A183D1F13E9</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3795,6 +3749,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>858E80103B16DDD481CE176B0DAE32EA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F5FC99919E8CA04CDF681017541026FA</string>
+				<string>C81977BF5122B2C2C67C4D654FCCA25D</string>
+				<string>C3A7B8A852618AB2CC01FB30D3774BFC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>85BAA3DAA9BCF7D5309B449A53E38F18</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3924,19 +3895,12 @@
 			<key>remoteInfo</key>
 			<string>Kiwi</string>
 		</dict>
-		<key>890AF8F9E569CB44436EF27DFCD6D927</key>
+		<key>893771AC847D75A7DFFE1A2FDC47E969</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D84C0777071BE2D389500E9EC2011AE9</string>
+			<string>B595D37A381B4FA36EF09121B16E0CE7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>8AE266E272C6206919B917F7ADDC40A1</key>
 		<dict>
@@ -4037,6 +4001,30 @@
 				</array>
 			</dict>
 		</dict>
+		<key>8E66A1F66A13086B60A5CEC291021754</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>893771AC847D75A7DFFE1A2FDC47E969</string>
+				<string>ABE9A8A854FB88BC168EAF1909994F59</string>
+				<string>0C510700ADDBBB851C7BBA08B48ADC9A</string>
+				<string>BCCCD5261F8DC3FF677B27C47BC39546</string>
+				<string>57D92347BD210CA59979C44C8E728CF2</string>
+				<string>FA3D2CF631F3F5D4CA149861F8AAA727</string>
+				<string>09FBDA18C6CA997391200755AF9D5322</string>
+				<string>642847D3D1E06CBBB395155B80794990</string>
+				<string>756393CCF24D8434E3B3F1B8B6C2F6A3</string>
+				<string>49119325B73B1AD36B49048CDD948F5B</string>
+				<string>C6792F978C71DBABC8258C6C550253C7</string>
+				<string>27287440ECB97BB392FC520E6FF44779</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>8E8C240876145399EBC3715A8A6C76D8</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4051,6 +4039,20 @@
 			<string>Classes/Matchers/KWBeTrueMatcher.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8ECEDBA0954855F2B8676D16EF0A1FB7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A06F7C6341BC96B1721311EC1C36871A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>9056A74EE81DAAE780B8E030BC467C44</key>
 		<dict>
@@ -4094,6 +4096,19 @@
 			<string>KWChangeMatcher.h</string>
 			<key>path</key>
 			<string>Classes/Matchers/KWChangeMatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>915F09EAF1737EFFD1435FCAA5B3B210</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLTransitionProxy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4141,6 +4156,20 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>939991D55F1929CE20102E74F513C28B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>158F8C140825E25572717DB2CF38D952</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>939D88B131A673AE20DA32D9F5A62F34</key>
 		<dict>
 			<key>fileRef</key>
@@ -4154,6 +4183,33 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>94C5EF530BB55CCF2F68DC0B1D35672A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F84EDE5F22D7F641395E0C7B61F66F47</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>95229A9C0FA2733943BDAC2587AD5D82</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIViewController+TLTransition.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>960022756941A5E398880955F4D438DF</key>
 		<dict>
@@ -4238,19 +4294,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>9926D785CEDF3584562CEC7AFDB9C403</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UINavigationController+TLTransition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9948FEC5DCDE74E61874DCACA88586AA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4321,6 +4364,19 @@
 			<string>KWSpec.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWSpec.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A9D68562B5E9582504F3850AC0F046E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFromTopAnimator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4572,26 +4628,31 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A0D01BBB6395A4242B84319D8FF2DB5C</key>
+		<key>A06F7C6341BC96B1721311EC1C36871A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>B8BE6E300F206D75699EBC02CE0A0C5B</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UINavigationController+TLTransition.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A150598DC92E400FA111E047529C7E68</key>
+		<key>A15392B2A4831B92D6A25E972FF0DDE1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>55D557703613D310E9C17BD5CDFB210D</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLDivideAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A17036F6EF1D8C5BD3E52D034C0FF14C</key>
 		<dict>
@@ -4631,13 +4692,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>A40782088F00C270279DF3589B995EEE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E029B1289B102C4749C8D6A514B03AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>A4A56BD197D92F58BCE7ECB0098524C3</key>
 		<dict>
@@ -4916,19 +4970,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>AA2F46DC969228D932C1F2C866873EBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLFadeAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>AA47DC3178A41E41561493F3D5DEAB93</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4944,18 +4985,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AB1D8468980F2893776073446189544B</key>
+		<key>ABE9A8A854FB88BC168EAF1909994F59</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>A15392B2A4831B92D6A25E972FF0DDE1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLDivideAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>ABFE2F6780F7EF88701796F36BEDA57B</key>
 		<dict>
@@ -5034,13 +5069,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AF1327FF9436C28898054023560F4D14</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF8EB3DDA886D51A7C458B9FF38194FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>AFD287877B8602866E5ECBDA2AC1119B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5069,13 +5097,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>B0366D13A16358771C9F3B4836028171</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C43EC6C89C39C6082EC2E114AC6E4DBC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>B08C85D72B8464789B8D1B2C15889C50</key>
 		<dict>
@@ -5117,6 +5138,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>B16044CDDCA54E9C6BE24503B9A1A52D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLDivideAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B29E13CA9CB2C437EFB5B6064DDF8D22</key>
 		<dict>
@@ -5177,6 +5211,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B595D37A381B4FA36EF09121B16E0CE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B5F515531B7E8214BA3312E034E8E131</key>
 		<dict>
 			<key>fileRef</key>
@@ -5202,19 +5249,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>B61693B55523A78E54F080249754B048</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLFadeAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B720BBFC43D7F0593753DC1032AD4E82</key>
 		<dict>
@@ -5315,19 +5349,6 @@
 			<string>KWObjCUtilities.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWObjCUtilities.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8BE6E300F206D75699EBC02CE0A0C5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLAnimator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5514,6 +5535,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BCCCD5261F8DC3FF677B27C47BC39546</key>
+		<dict>
+			<key>fileRef</key>
+			<string>32214F394FF0259EDF3A0F86E55ED8F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BD076810A50A5C6DA0B8C7A97CE92B90</key>
 		<dict>
 			<key>children</key>
@@ -5672,20 +5700,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C14D73CB0C835447770A52AC1E5A04B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47CA1DA0E14AC579E40AD76C91D8CBF8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>C1C285574B269EB1FA0D37DBF2837E78</key>
 		<dict>
 			<key>fileRef</key>
@@ -5697,6 +5711,33 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>C21A710C29312AA55F44282F138DF758</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E1B38A05EE04D12FE119E34D8B5276DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C2BE91A55B94D8E5711C4D8CFA1A6639</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TLFromLeftAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C34638949F5F88EB04EF41998CB6795E</key>
 		<dict>
@@ -5739,16 +5780,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C43EC6C89C39C6082EC2E114AC6E4DBC</key>
+		<key>C3A7B8A852618AB2CC01FB30D3774BFC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>E1B38A05EE04D12FE119E34D8B5276DE</string>
+				<string>025E3F3E712D2862B17A8D69204A7AA2</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Model</string>
 			<key>path</key>
-			<string>UINavigationController+TLTransition.m</string>
+			<string>Model</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5820,6 +5864,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>C6792F978C71DBABC8258C6C550253C7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26F08B077277044F2C3FC10AA233F17E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>C7083D208866E4CA34AD10B5703D05B7</key>
 		<dict>
 			<key>fileRef</key>
@@ -5831,6 +5882,26 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>C81977BF5122B2C2C67C4D654FCCA25D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5B36448435253FE7E21CCEF436960B34</string>
+				<string>915F09EAF1737EFFD1435FCAA5B3B210</string>
+				<string>A06F7C6341BC96B1721311EC1C36871A</string>
+				<string>26F08B077277044F2C3FC10AA233F17E</string>
+				<string>95229A9C0FA2733943BDAC2587AD5D82</string>
+				<string>FD25604BDC87E6DDFED6AB14C1EED6CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Category</string>
+			<key>path</key>
+			<string>Category</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C83D636BABA925986ECA2EC70C3EF5FA</key>
 		<dict>
@@ -5916,6 +5987,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>CA3ECD08489A5D956F81210152C4DB3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A9D68562B5E9582504F3850AC0F046E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>CA9E95C05B0CB6EF75B9CB6EE609983F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5930,6 +6015,20 @@
 			<string>Classes/Matchers/KWBlockRaiseMatcher.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CAD1271A710D55516AEAD9CA6F844780</key>
+		<dict>
+			<key>fileRef</key>
+			<string>95229A9C0FA2733943BDAC2587AD5D82</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>CB36E23C0329D4E4BD67B1C271EFA0D5</key>
 		<dict>
@@ -5984,13 +6083,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>CC03B28C13C581FC2C70EBEDCACB8B4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E20CAD3BB26C5D791F0269F5DF578618</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>CC93F3E0220D3E5EA559F73C51B2C157</key>
 		<dict>
@@ -6121,13 +6213,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D0DA416E90EC7C81327E2DA1315246A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>524487B306350E4F55461A70DA94567E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>D0DF7F4B9AB77029A595687344025114</key>
 		<dict>
 			<key>fileRef</key>
@@ -6183,19 +6268,6 @@
 			<string>NSMethodSignature+KiwiAdditions.h</string>
 			<key>path</key>
 			<string>Classes/Core/NSMethodSignature+KiwiAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3B542806F0C768A7C129157AE1426E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLDivideAnimator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -6335,13 +6407,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>D5CC3E7A2949C68F6E94D4E90B5B8677</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A20629F6080DF132B170D4D91A46C7F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>D67136524A364E07FB7F2ECD981D2A9F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6370,36 +6435,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>D74B1C349441F5E874B0BE16F1F203B1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>219F29F5CADB48BA24472FAA47B2D6A8</string>
-				<string>30FF4249E1E7B284CC5F24E55EB7F49A</string>
-				<string>7CB6CD5B302995F8610240D8025D4644</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D84C0777071BE2D389500E9EC2011AE9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TLFromLeftAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D8C320F00818473B17A689AFFA846047</key>
 		<dict>
@@ -6517,9 +6552,9 @@
 			<string>DB2F61D57224BF961354C8658D34211C</string>
 			<key>buildPhases</key>
 			<array>
-				<string>709C59F37EDB4EB77249919C3ECE5E49</string>
+				<string>8E66A1F66A13086B60A5CEC291021754</string>
 				<string>990DCC08F4B17DE323FB62FB2FCEC713</string>
-				<string>3BA0D5602A77E194BB7BA3DE249C50B5</string>
+				<string>7FAC5222397445A2B0525728E21CC2FB</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -6535,6 +6570,20 @@
 			<string>971B6B22EEEFAE0F540F00B77955A435</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>DE89FA0E0A48E4BB75A74340AA3DE2D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B36448435253FE7E21CCEF436960B34</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>DED3428C3C5005A7870D22DD963F730D</key>
 		<dict>
@@ -6554,19 +6603,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>DF8EB3DDA886D51A7C458B9FF38194FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLSnapshotModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DFA7A386B3F147214F8F91B82042EEB0</key>
 		<dict>
@@ -6598,20 +6634,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E20CAD3BB26C5D791F0269F5DF578618</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TLFromLeftAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2A61536EFED795D0F96868F32574CC9</key>
+		<key>E1B38A05EE04D12FE119E34D8B5276DE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -6714,19 +6737,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>E692FD1174D587C5A29AC8D3BDF7B921</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIViewController+TLTransition.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E6E263AA073050A569B826F0671474DA</key>
 		<dict>
@@ -7152,7 +7162,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D74B1C349441F5E874B0BE16F1F203B1</string>
+				<string>858E80103B16DDD481CE176B0DAE32EA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -7190,13 +7200,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>F2F72E8C9A800112A751420C9758F383</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB1D8468980F2893776073446189544B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>F32D7452ECD4236EE5FE7C1A8AFADA61</key>
 		<dict>
@@ -7240,6 +7243,35 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>F5FC99919E8CA04CDF681017541026FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>158F8C140825E25572717DB2CF38D952</string>
+				<string>B595D37A381B4FA36EF09121B16E0CE7</string>
+				<string>4550B21B28B8F2340A8F5C2526E852B7</string>
+				<string>B16044CDDCA54E9C6BE24503B9A1A52D</string>
+				<string>A15392B2A4831B92D6A25E972FF0DDE1</string>
+				<string>F8DAC851F6F4554D6402A6421553A0BE</string>
+				<string>6A70FC8BFA99BC48DCE21585286AAA8B</string>
+				<string>7D300A62BFE0B8B92651037BB267B556</string>
+				<string>32214F394FF0259EDF3A0F86E55ED8F7</string>
+				<string>F84EDE5F22D7F641395E0C7B61F66F47</string>
+				<string>C2BE91A55B94D8E5711C4D8CFA1A6639</string>
+				<string>9A9D68562B5E9582504F3850AC0F046E</string>
+				<string>0B51647ED4F710E478A6FDE984AB458E</string>
+				<string>77A2A6041F1D6E73F9401D3E06A63260</string>
+				<string>1055C3ADEA59ECD3ECCC4C352BC3D43E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Animator</string>
+			<key>path</key>
+			<string>Animator</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F6DF974712AC5B4DF955A8A5F9546FAD</key>
 		<dict>
@@ -7317,6 +7349,32 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>F84EDE5F22D7F641395E0C7B61F66F47</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFromLeftAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F8DAC851F6F4554D6402A6421553A0BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TLFadeAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>F96DBA68D694300602064C18E6C939AB</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -7361,6 +7419,13 @@
 			<string>Classes/Matchers/KWBeMemberOfClassMatcher.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA3D2CF631F3F5D4CA149861F8AAA727</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0B51647ED4F710E478A6FDE984AB458E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>FABCD2CBBE22DCAB7CACCA457FE11824</key>
 		<dict>
@@ -7474,20 +7539,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>FB816174911EAA1A9B64994FD9E9F153</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B61693B55523A78E54F080249754B048</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>FC51E74D7BE68E98218D20D13B463FAA</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -7542,16 +7593,16 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>FD40C11957BA69C20D931C055AFE6F5F</key>
+		<key>FD25604BDC87E6DDFED6AB14C1EED6CF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>TLFromTopAnimator.h</string>
+			<string>UIViewController+TLTransition.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
