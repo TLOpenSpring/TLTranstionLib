@@ -22,7 +22,7 @@
     self.view.backgroundColor=[UIColor whiteColor];
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
-                 @"FlipOver",@"CoverFromTop",@"CoverFromBottom"];
+                 @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -75,6 +75,8 @@
         self.navigationController.animatorStyle=TLAnmimatorStyleCoverVerticalFromTop;
     }else if([style isEqualToString:@"CoverFromBottom"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleCoverVerticalFromBottom;
+    }else if([style isEqualToString:@"cube"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleCube;
     }
     
     

@@ -19,6 +19,7 @@ typedef NS_ENUM (NSInteger, TLAnimatorStyle) {
     TLAnmimatorStyleFlipOver=   1 << 5,
     TLAnmimatorStyleCoverVerticalFromTop=   1 << 6,
     TLAnmimatorStyleCoverVerticalFromBottom=   1 << 7,
+    TLAnmimatorStyleCube=   1 << 8,
     TLAnmimatorStyleNone = 1 << 100
 };
 

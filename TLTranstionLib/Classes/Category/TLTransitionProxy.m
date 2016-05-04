@@ -104,6 +104,9 @@
         }
             break;
             
+        case TLAnmimatorStyleCube:
+            baseAnimator=[self tlCubeAnimator];
+            break;
         default:
             break;
     }
@@ -150,6 +153,12 @@
         _tlCoverVerticalAnimator=[[TLCoverVerticalAnimator alloc]init];
     }
     return _tlCoverVerticalAnimator;
+}
+-(TLCubeAnimator*)tlCubeAnimator{
+    if(!_tlCubeAnimator){
+        _tlCubeAnimator=[[TLCubeAnimator alloc]init];
+    }
+    return _tlCubeAnimator;
 }
 
 
