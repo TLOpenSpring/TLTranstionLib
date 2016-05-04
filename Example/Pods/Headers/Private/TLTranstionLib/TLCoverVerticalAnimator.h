@@ -1,0 +1,1 @@
+../../../../../TLTranstionLib/Classes/Animator/TLCoverVerticalAnimator.h

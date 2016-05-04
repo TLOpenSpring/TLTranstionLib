@@ -89,6 +89,21 @@
         case TLAnmimatorStyleFlipOver:
             baseAnimator=[self tlFlipOverAnimator];
             break;
+        case TLAnmimatorStyleCoverVerticalFromTop:
+        {
+            TLCoverVerticalAnimator *coverAnimator=[self tlCoverVerticalAnimator];
+            coverAnimator.tldirection=TLCoverDirectionFromTop;
+            baseAnimator=coverAnimator;
+        }
+            break;
+        case TLAnmimatorStyleCoverVerticalFromBottom:
+        {
+            TLCoverVerticalAnimator *coverAnimator=[self tlCoverVerticalAnimator];
+            coverAnimator.tldirection=TLCoverDirectionFromBottom;
+            baseAnimator=coverAnimator;
+        }
+            break;
+            
         default:
             break;
     }
@@ -129,6 +144,12 @@
         _tlFlipOverAnimator=[[TLFlipOverAnimator alloc]init];
     }
     return _tlFlipOverAnimator;
+}
+-(TLCoverVerticalAnimator *)tlCoverVerticalAnimator{
+    if(!_tlCoverVerticalAnimator){
+        _tlCoverVerticalAnimator=[[TLCoverVerticalAnimator alloc]init];
+    }
+    return _tlCoverVerticalAnimator;
 }
 
 

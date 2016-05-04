@@ -16,6 +16,7 @@
 #import "TLFromTopAnimator.h"
 #import "TLFromLeftAnimator.h"
 #import "TLFlipOverAnimator.h"
+#import "TLCoverVerticalAnimator.h"
 
 @interface TLTransitionProxy : NSProxy<UINavigationControllerDelegate>
 @property (nonatomic,weak)id<UINavigationControllerDelegate> delegate;
@@ -30,5 +31,6 @@
 @property (nonatomic,strong)TLFromTopAnimator *tlfromTopAnimator;
 @property (nonatomic,strong)TLFromLeftAnimator *tlFromLeftAnimator;
 @property (nonatomic,strong)TLFlipOverAnimator *tlFlipOverAnimator;
+@property (nonatomic,strong)TLCoverVerticalAnimator *tlCoverVerticalAnimator;
 -(instancetype)init;
 @end
