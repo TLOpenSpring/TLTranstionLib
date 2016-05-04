@@ -12,6 +12,37 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+##效果图
+
+###System
+![system](http://7xsn4e.com2.z0.glb.clouddn.com/System.gif)
+
+###Fade
+![fade](http://7xsn4e.com2.z0.glb.clouddn.com/Fade.gif)
+
+###FromLeft
+![fromLeft](http://7xsn4e.com2.z0.glb.clouddn.com/Fromleft.gif)
+
+###FlibOver
+![flibover](http://7xsn4e.com2.z0.glb.clouddn.com/Flipover.gif)
+
+###CoverFromTop
+![coverFromTop](http://7xsn4e.com2.z0.glb.clouddn.com/CoverFromTop.gif)
+
+###Devide
+![devide](http://7xsn4e.com2.z0.glb.clouddn.com/devide.gif)
+
+###FromTop
+![fromTop](http://7xsn4e.com2.z0.glb.clouddn.com/FromTop.gif)
+
+###CoverFrombottom
+![bottom](http://7xsn4e.com2.z0.glb.clouddn.com/CoverFromBottom.gif)
+
+###Cube
+![cube](http://7xsn4e.com2.z0.glb.clouddn.com/cube.gif)
+
+
+
 ## Installation
 
 TLTranstionLib is available through [CocoaPods](http://cocoapods.org). To install

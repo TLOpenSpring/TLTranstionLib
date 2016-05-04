@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
+    self.title=@"转场动画集合";
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
                  @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube"];

@@ -25,7 +25,6 @@
 
 -(void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
     TransitionModel *model=[[TransitionModel alloc]initWithTransitionContext:transitionContext];
-    
     //创建不同的3d效果
     CATransform3D viewFromTransform;
     CATransform3D viewToTransform;
