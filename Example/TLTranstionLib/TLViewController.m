@@ -23,7 +23,8 @@
     self.title=@"转场动画集合";
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
-                 @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube"];
+                 @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube",
+                 @"Portal",@"Card",@"Fold"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -78,6 +79,12 @@
         self.navigationController.animatorStyle=TLAnmimatorStyleCoverVerticalFromBottom;
     }else if([style isEqualToString:@"cube"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleCube;
+    }else if([style isEqualToString:@"Portal"]){
+        self.navigationController.animatorStyle=TLAnmimatorStylePortal;
+    }else if([style isEqualToString:@"Card"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleCard;
+    }else if([style isEqualToString:@"Fold"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleFold;
     }
     
     

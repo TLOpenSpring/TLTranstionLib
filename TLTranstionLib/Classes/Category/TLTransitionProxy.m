@@ -107,6 +107,15 @@
         case TLAnmimatorStyleCube:
             baseAnimator=[self tlCubeAnimator];
             break;
+        case TLAnmimatorStylePortal:
+            baseAnimator=[self tlPortalAnimator];
+            break;
+        case TLAnmimatorStyleCard:
+            baseAnimator=[self tlCardAnimator];
+            break;
+        case TLAnmimatorStyleFold:
+            baseAnimator=[self tlFoldAnimator];
+            break;
         default:
             break;
     }
@@ -159,6 +168,24 @@
         _tlCubeAnimator=[[TLCubeAnimator alloc]init];
     }
     return _tlCubeAnimator;
+}
+-(TLPortalAnimator*)tlPortalAnimator{
+    if(!_tlPortalAnimator){
+        _tlPortalAnimator=[[TLPortalAnimator alloc]init];
+    }
+    return _tlPortalAnimator;
+}
+-(TLCardAnimator *)tlCardAnimator{
+    if(!_tlCardAnimator){
+        _tlCardAnimator=[[TLCardAnimator alloc]init];
+     }
+    return _tlCardAnimator;
+}
+-(TLFoldAnimator *)tlFoldAnimator{
+    if(!_tlFoldAnimator){
+        _tlFoldAnimator=[[TLFoldAnimator alloc]init];
+    }
+    return _tlFoldAnimator;
 }
 
 

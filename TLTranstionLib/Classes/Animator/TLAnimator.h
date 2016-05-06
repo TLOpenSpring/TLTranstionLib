@@ -15,5 +15,7 @@ static NSTimeInterval duration = 0.3;
 
 @property (nonatomic)UINavigationControllerOperation operation;
 
+@property BOOL reverse;
+
 
 @end
