@@ -16,6 +16,7 @@
     [self setRootRightBarItem];
     
     self.bgIv.image=[UIImage imageNamed:@"4"];
+    self.view.backgroundColor=[UIColor yellowColor];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

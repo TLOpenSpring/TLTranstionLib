@@ -15,6 +15,7 @@
     self.title=@"First";
     
     self.bgIv.image=[UIImage imageNamed:@"1"];
+    self.view.backgroundColor=[UIColor redColor];
 }
 
 -(UIViewController *)getCurrentVC{

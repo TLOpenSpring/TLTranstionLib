@@ -15,6 +15,8 @@
     self.title=@"Three";
     
     self.bgIv.image=[UIImage imageNamed:@"3"];
+    
+    self.view.backgroundColor=[UIColor blueColor];
 }
 
 -(UIViewController *)getCurrentVC{

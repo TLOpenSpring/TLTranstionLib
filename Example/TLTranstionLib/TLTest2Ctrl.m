@@ -15,6 +15,8 @@
     self.title=@"Second";
     
     self.bgIv.image=[UIImage imageNamed:@"2"];
+    self.view.backgroundColor=[UIColor grayColor];
+
 }
 
 -(UIViewController *)getCurrentVC{

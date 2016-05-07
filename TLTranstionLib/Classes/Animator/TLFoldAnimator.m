@@ -29,6 +29,8 @@
     
     if(self.operation==UINavigationControllerOperationPop){
         self.reverse=YES;
+    }else{
+        self.reverse=NO;
     }
     
     TransitionModel *model=[[TransitionModel alloc]initWithTransitionContext:transitionContext];
@@ -59,14 +61,15 @@
         leftFromViewFold.layer.position = CGPointMake(offset, size.height/2);
         
         [fromViewFolds addObject:leftFromViewFold];
-        [leftFromViewFold.subviews[1] setAlpha:0];
+        NSLog(@"leftFromViewFold.subviews[1]:%@",leftFromViewFold.subviews[1]);
+        [leftFromViewFold.subviews[1] setAlpha:1];
         
         
         //设置右边的fold
         UIView *rightFromViewFold = [self createSnapshotFromView:model.fromView afterUpdates:NO location:offset+foldwidth left:NO];
         rightFromViewFold.layer.position = CGPointMake(offset + foldwidth*2, size.height/2);
         [fromViewFolds addObject:rightFromViewFold];
-        [rightFromViewFold.subviews[1] setAlpha:0];
+        [rightFromViewFold.subviews[1] setAlpha:1];
         
         //目标视图的左边和右边使用 90度 transform ，并且设置alpha = 1
         UIView *leftToViewFold = [self createSnapshotFromView:model.toView afterUpdates:YES location:offset left:YES];
@@ -75,10 +78,10 @@
         [toViewFolds addObject:leftToViewFold];
         
         UIView *rightToViewFold = [self createSnapshotFromView:model.toView afterUpdates:YES location:offset+foldwidth left:NO];
-        rightFromViewFold.layer.position = CGPointMake(self.reverse?size.width:0, size.height/2);
-        rightFromViewFold.layer.transform = CATransform3DMakeRotation(-M_PI_2, 0, 1, 0);
+        rightToViewFold.layer.position = CGPointMake(self.reverse?size.width:0, size.height/2);
+        rightToViewFold.layer.transform = CATransform3DMakeRotation(-M_PI_2, 0, 1, 0);
         
-        [toViewFolds addObject:rightFromViewFold];
+        [toViewFolds addObject:rightToViewFold];
     }
     
     
@@ -88,7 +91,7 @@
     //开始动画
     NSTimeInterval duration = [self transitionDuration:transitionContext];
     
-    [UIView animateWithDuration:2 animations:^{
+    [UIView animateWithDuration:5 animations:^{
         
         //set the final state for each fold
         for (int i=0; i<self.folds; i++) {
@@ -108,14 +111,14 @@
             
             
             UIView *leftToView = toViewFolds[i*2];
-            leftFromView.layer.position = CGPointMake(offset, size.height/2);
-            leftFromView.layer.transform = CATransform3DIdentity;
+            leftToView.layer.position = CGPointMake(offset, size.height/2);
+            leftToView.layer.transform = CATransform3DIdentity;
             [leftToView.subviews[1] setAlpha:0];
             
-            UIView *rightView= toViewFolds[i*2+1];
-            rightFromView.layer.position = CGPointMake(offset+foldwidth*2, size.height/2);
-            rightFromView.layer.transform = CATransform3DIdentity;
-            [rightFromView.subviews[1] setAlpha:0];
+            UIView *rightToView= toViewFolds[i*2+1];
+            rightToView.layer.position = CGPointMake(offset+foldwidth*2, size.height/2);
+            rightToView.layer.transform = CATransform3DIdentity;
+            [rightToView.subviews[1] setAlpha:0];
         }
         
     } completion:^(BOOL finished) {
@@ -127,9 +130,9 @@
             [view removeFromSuperview];
         }
         if([transitionContext transitionWasCancelled]){
-            model.toView.frame = model.containerView.bounds;
             model.fromView.frame=model.containerView.bounds;
         }else{
+            model.toView.frame = model.containerView.bounds;
             model.fromView.frame=model.containerView.bounds;
         }
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
@@ -182,6 +185,7 @@
     
     //设置坐标在左边或者在右边
     snapshotWithShowdowView.layer.anchorPoint=CGPointMake(left?0:1, 0.5);
+
     return snapshotWithShowdowView;
 }
 
