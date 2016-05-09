@@ -62,6 +62,13 @@
     _animatorStyle=animatorStyle;
     self.tlAnimator=[self TL_animatorTransitionForStyle:animatorStyle];
 }
+
+-(void)setTlDuration:(NSTimeInterval)tlDuration{
+    _tlDuration=tlDuration;
+    self.tlAnimator.animatorDuration=tlDuration;
+    
+}
+
 /**
  *  根据设置的动画样式设置动画类型
  *
@@ -115,6 +122,9 @@
             break;
         case TLAnmimatorStyleFold:
             baseAnimator=[self tlFoldAnimator];
+            break;
+        case TLAnmimatorStyleExplode:
+            baseAnimator=[self tlExplodeAnimator];
             break;
         default:
             break;
@@ -186,6 +196,12 @@
         _tlFoldAnimator=[[TLFoldAnimator alloc]init];
     }
     return _tlFoldAnimator;
+}
+-(TLExplodeAnimator*)tlExplodeAnimator{
+    if(!_tlExplodeAnimator){
+        _tlExplodeAnimator = [[TLExplodeAnimator alloc]init];
+    }
+    return _tlExplodeAnimator;
 }
 
 

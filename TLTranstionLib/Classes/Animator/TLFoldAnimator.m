@@ -62,6 +62,7 @@
         
         [fromViewFolds addObject:leftFromViewFold];
         NSLog(@"leftFromViewFold.subviews[1]:%@",leftFromViewFold.subviews[1]);
+        //leftFromViewFold.subviews[1]指定的是有阴影的shadowView
         [leftFromViewFold.subviews[1] setAlpha:1];
         
         
@@ -69,6 +70,7 @@
         UIView *rightFromViewFold = [self createSnapshotFromView:model.fromView afterUpdates:NO location:offset+foldwidth left:NO];
         rightFromViewFold.layer.position = CGPointMake(offset + foldwidth*2, size.height/2);
         [fromViewFolds addObject:rightFromViewFold];
+         //rightFromViewFold.subviews[1]指定的是有阴影的shadowView
         [rightFromViewFold.subviews[1] setAlpha:1];
         
         //目标视图的左边和右边使用 90度 transform ，并且设置alpha = 1
@@ -89,9 +91,9 @@
     model.fromView.frame = CGRectOffset(model.fromView.frame, model.fromView.frame.size.width, 0);
     
     //开始动画
-    NSTimeInterval duration = [self transitionDuration:transitionContext];
+    NSTimeInterval duration = [self animatorDuration];
     
-    [UIView animateWithDuration:5 animations:^{
+    [UIView animateWithDuration:duration animations:^{
         
         //set the final state for each fold
         for (int i=0; i<self.folds; i++) {
@@ -113,11 +115,13 @@
             UIView *leftToView = toViewFolds[i*2];
             leftToView.layer.position = CGPointMake(offset, size.height/2);
             leftToView.layer.transform = CATransform3DIdentity;
+            //leftToView.subviews[1]指定的是有阴影的shadowView
             [leftToView.subviews[1] setAlpha:0];
             
             UIView *rightToView= toViewFolds[i*2+1];
             rightToView.layer.position = CGPointMake(offset+foldwidth*2, size.height/2);
             rightToView.layer.transform = CATransform3DIdentity;
+            //rightToView.subviews[1]指定的是有阴影的shadowView
             [rightToView.subviews[1] setAlpha:0];
         }
         

@@ -17,8 +17,19 @@
  *  @return 动画执行的时间
  */
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext{
-    return duration;
+    return _animatorDuration;
 }
+
+-(NSTimeInterval)animatorDuration{
+    if(_animatorDuration==0){
+        _animatorDuration=0.3;
+    }
+    return _animatorDuration;
+}
+
+
+
+
 /**
  *  具体执行动画效果
  *

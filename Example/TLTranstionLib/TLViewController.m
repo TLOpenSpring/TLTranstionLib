@@ -24,7 +24,7 @@
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
                  @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube",
-                 @"Portal",@"Card",@"Fold"];
+                 @"Portal",@"Card",@"Fold",@"Explode"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -85,6 +85,9 @@
         self.navigationController.animatorStyle=TLAnmimatorStyleCard;
     }else if([style isEqualToString:@"Fold"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleFold;
+    }else if([style isEqualToString:@"Explode"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleExplode;
+        self.navigationController.animatorDuration=1;
     }
     
     

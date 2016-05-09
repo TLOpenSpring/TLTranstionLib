@@ -12,4 +12,10 @@
 
 @interface UINavigationController (TLTransition)
 @property (nonatomic,assign)TLAnimatorStyle animatorStyle;
+
+/**
+ *  动画执行的时间
+ */
+@property NSTimeInterval animatorDuration;
+
 @end

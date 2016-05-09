@@ -102,4 +102,11 @@
 }
 
 
+
+
+-(void)setAnimatorDuration:(NSTimeInterval)animatorDuration{
+    self.proxy.tlDuration=animatorDuration;
+}
+
+
 @end

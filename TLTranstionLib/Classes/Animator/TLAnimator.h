@@ -9,13 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "TransitionModel.h"
 
-static NSTimeInterval duration = 0.3;
+
 
 @interface TLAnimator : NSObject<UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic)UINavigationControllerOperation operation;
 
 @property BOOL reverse;
+
+@property NSTimeInterval animatorDuration;
 
 
 @end

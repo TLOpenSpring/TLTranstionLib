@@ -23,6 +23,7 @@ typedef NS_ENUM (NSInteger, TLAnimatorStyle) {
     TLAnmimatorStylePortal=   1 << 9,
     TLAnmimatorStyleCard=   1 << 10,
     TLAnmimatorStyleFold=   1 << 11,
+    TLAnmimatorStyleExplode=   1 << 12,
     TLAnmimatorStyleNone = 1 << 100
 };
 

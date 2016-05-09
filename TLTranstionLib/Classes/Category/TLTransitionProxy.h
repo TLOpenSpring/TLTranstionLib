@@ -21,11 +21,14 @@
 #import "TLCubeAnimator.h"
 #import "TLCardAnimator.h"
 #import "TLFoldAnimator.h"
+#import "TLExplodeAnimator.h"
 
 @interface TLTransitionProxy : NSProxy<UINavigationControllerDelegate>
 @property (nonatomic,weak)id<UINavigationControllerDelegate> delegate;
 @property (nonatomic,strong)TLAnimator *tlAnimator;
 @property (nonatomic,assign)TLAnimatorStyle animatorStyle;
+
+@property NSTimeInterval tlDuration;
 
 /**
  *  自定义的Animator
@@ -40,5 +43,6 @@
 @property (nonatomic,strong)TLCubeAnimator *tlCubeAnimator;
 @property (nonatomic,strong)TLCardAnimator *tlCardAnimator;
 @property (nonatomic,strong)TLFoldAnimator *tlFoldAnimator;
+@property (nonatomic,strong)TLExplodeAnimator *tlExplodeAnimator;
 -(instancetype)init;
 @end
