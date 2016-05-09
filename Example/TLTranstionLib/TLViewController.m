@@ -24,7 +24,7 @@
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
                  @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube",
-                 @"Portal",@"Card",@"Fold",@"Explode"];
+                 @"Portal",@"Card",@"Fold",@"Explode",@"Turn"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -88,8 +88,10 @@
     }else if([style isEqualToString:@"Explode"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleExplode;
         self.navigationController.animatorDuration=1;
+    }else if([style isEqualToString:@"Turn"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleTurn;
+        self.navigationController.animatorDuration=0.7;
     }
-    
     
     TLTest1Ctrl *detailvc=[[TLTest1Ctrl alloc]init];
     [self.navigationController pushViewController:detailvc animated:YES];

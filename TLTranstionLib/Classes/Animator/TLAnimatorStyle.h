@@ -24,6 +24,7 @@ typedef NS_ENUM (NSInteger, TLAnimatorStyle) {
     TLAnmimatorStyleCard=   1 << 10,
     TLAnmimatorStyleFold=   1 << 11,
     TLAnmimatorStyleExplode=   1 << 12,
+    TLAnmimatorStyleTurn=   1 << 13,
     TLAnmimatorStyleNone = 1 << 100
 };
 

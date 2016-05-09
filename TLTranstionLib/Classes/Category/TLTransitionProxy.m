@@ -126,6 +126,10 @@
         case TLAnmimatorStyleExplode:
             baseAnimator=[self tlExplodeAnimator];
             break;
+        case TLAnmimatorStyleTurn:
+            baseAnimator=[self tlTurnAnimator];
+            break;
+
         default:
             break;
     }
@@ -202,6 +206,13 @@
         _tlExplodeAnimator = [[TLExplodeAnimator alloc]init];
     }
     return _tlExplodeAnimator;
+}
+
+-(TLTurnAnimator*)tlTurnAnimator{
+    if(!_tlTurnAnimator){
+            _tlTurnAnimator = [[TLTurnAnimator alloc]init];
+    }
+    return _tlTurnAnimator;
 }
 
 
