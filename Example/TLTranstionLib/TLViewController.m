@@ -24,7 +24,7 @@
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
                  @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube",
-                 @"Portal",@"Card",@"Fold",@"Explode",@"Turn"];
+                 @"Portal",@"Card",@"Fold",@"Explode",@"Turn",@"Geo"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -91,6 +91,9 @@
     }else if([style isEqualToString:@"Turn"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleTurn;
         self.navigationController.animatorDuration=0.7;
+    }else if([style isEqualToString:@"Geo"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleGeo;
+        self.navigationController.animatorDuration=1;
     }
     
     TLTest1Ctrl *detailvc=[[TLTest1Ctrl alloc]init];

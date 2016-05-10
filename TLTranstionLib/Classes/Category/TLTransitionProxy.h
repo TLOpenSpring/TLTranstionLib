@@ -23,6 +23,7 @@
 #import "TLFoldAnimator.h"
 #import "TLExplodeAnimator.h"
 #import "TLTurnAnimator.h"
+#import "TLGeoAnimaotor.h"
 
 @interface TLTransitionProxy : NSProxy<UINavigationControllerDelegate>
 @property (nonatomic,weak)id<UINavigationControllerDelegate> delegate;
@@ -46,5 +47,6 @@
 @property (nonatomic,strong)TLFoldAnimator *tlFoldAnimator;
 @property (nonatomic,strong)TLExplodeAnimator *tlExplodeAnimator;
 @property (nonatomic,strong)TLTurnAnimator *tlTurnAnimator;
+@property (nonatomic,strong)TLGeoAnimaotor *tlGeoAnimator;
 -(instancetype)init;
 @end

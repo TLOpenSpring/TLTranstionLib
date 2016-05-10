@@ -129,7 +129,9 @@
         case TLAnmimatorStyleTurn:
             baseAnimator=[self tlTurnAnimator];
             break;
-
+        case TLAnmimatorStyleGeo:
+            baseAnimator=[self tlGeoAnimator];
+            break;
         default:
             break;
     }
@@ -213,6 +215,13 @@
             _tlTurnAnimator = [[TLTurnAnimator alloc]init];
     }
     return _tlTurnAnimator;
+}
+
+-(TLGeoAnimaotor*)tlGeoAnimator{
+    if(!_tlGeoAnimator){
+        _tlGeoAnimator = [[TLGeoAnimaotor alloc]init];
+    }
+    return _tlGeoAnimator;
 }
 
 
