@@ -41,6 +41,27 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ###Cube
 ![cube](http://7xsn4e.com2.z0.glb.clouddn.com/cube.gif)
 
+###Explode
+![explode](http://7xsn4e.com1.z0.glb.clouddn.com/Explode.gif)
+
+###Card
+![Card](http://7xsn4e.com1.z0.glb.clouddn.com/Card.gif)
+
+### trun
+![trun](http://7xsn4e.com1.z0.glb.clouddn.com/turn.gif)
+
+### Flip
+![flip](http://7xsn4e.com1.z0.glb.clouddn.com/Flip.gif)
+
+### Geo
+![geo](http://7xsn4e.com1.z0.glb.clouddn.com/Geo.gif)
+
+### Portal
+![Portal](http://7xsn4e.com1.z0.glb.clouddn.com/Portal.gif)
+
+### Fold
+![Fold](http://7xsn4e.com1.z0.glb.clouddn.com/Fold.gif)
+
 
 
 ## Installation

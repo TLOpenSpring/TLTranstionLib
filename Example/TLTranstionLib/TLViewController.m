@@ -21,6 +21,7 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     self.tableView.backgroundColor=[UIColor whiteColor];
+    
     self.title=@"转场动画集合";
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
@@ -81,10 +82,12 @@
         self.navigationController.animatorStyle=TLAnmimatorStyleCube;
     }else if([style isEqualToString:@"Portal"]){
         self.navigationController.animatorStyle=TLAnmimatorStylePortal;
+        self.navigationController.animatorDuration=1;
     }else if([style isEqualToString:@"Card"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleCard;
     }else if([style isEqualToString:@"Fold"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleFold;
+        self.navigationController.animatorDuration=1;
     }else if([style isEqualToString:@"Explode"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleExplode;
         self.navigationController.animatorDuration=1;
@@ -96,7 +99,7 @@
         self.navigationController.animatorDuration=1;
     }else if([style isEqualToString:@"Flip"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleFlip;
-        self.navigationController.animatorDuration=3;
+        self.navigationController.animatorDuration=1;
     }
     
     TLTest1Ctrl *detailvc=[[TLTest1Ctrl alloc]init];
