@@ -132,6 +132,9 @@
         case TLAnmimatorStyleGeo:
             baseAnimator=[self tlGeoAnimator];
             break;
+        case TLAnmimatorStyleFlip:
+            baseAnimator=[self tlFlipAnimator];
+            break;
         default:
             break;
     }
@@ -146,6 +149,12 @@
         _tlfadeAnimator=[[TLFadeAnimator alloc]init];
     }
     return _tlfadeAnimator;
+}
+-(TLFlipAnimator*)tlFlipAnimator{
+    if(!_tlFlipAnimator){
+        _tlFlipAnimator = [[TLFlipAnimator alloc]init];
+    }
+    return _tlFlipAnimator;
 }
 
 -(TLDivideAnimator*)tlDivideAnimator{

@@ -66,7 +66,7 @@
     
     baseView.frame=newFrame;
     
-    [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+    [UIView animateWithDuration:[self animatorDuration] animations:^{
         
         CGRect frame = snapshotView.frame;
         if(self.tldirection == TLCoverDirectionFromTop){
@@ -159,7 +159,7 @@
         }
         snapshotView.frame=newFrame;
         
-        [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             CGRect frame = baseView.frame;
             if(self.tldirection == TLCoverDirectionFromTop){
                 frame.origin.y -= newFrame.size.height;

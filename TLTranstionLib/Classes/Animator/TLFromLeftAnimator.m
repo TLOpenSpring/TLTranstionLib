@@ -67,7 +67,7 @@
     transform.m34 = -1.0/750;
     transform = CATransform3DTranslate(transform, 0, 0, -50);
     
-    [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+    [UIView animateWithDuration:[self animatorDuration] animations:^{
         
         baseView.frame=originalFrame;
         snapshotView.layer.transform=transform;
@@ -133,7 +133,7 @@
         newFrame.origin.x = newFrame.origin.x + newFrame.size.width;
         
         
-        [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             
             maskView.alpha =0;
             snapshotView.layer.transform=CATransform3DIdentity;

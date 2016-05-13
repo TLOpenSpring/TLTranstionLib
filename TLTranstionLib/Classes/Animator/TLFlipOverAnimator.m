@@ -83,7 +83,7 @@
     baseView.layer.transform=startTransform;
     
     
-    [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+    [UIView animateWithDuration:[self animatorDuration] animations:^{
         baseView.layer.transform=endTranssform;
         maskView.alpha=0.35;
         
@@ -159,7 +159,7 @@
         baseView.layer.position=CGPointMake(position.x+baseView.layer.bounds.size.width/2, position.y);
         
         
-        [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             maskView.alpha=0;
             baseView.layer.transform=startTransform;
             

@@ -63,7 +63,7 @@
         transform = CATransform3DTranslate(transform, 0, 10, -60);
         transform = CATransform3DScale(transform, 0.98, 1, 1);
         
-        [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        [UIView animateWithDuration:[self animatorDuration] delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             baseView.frame=originalFrame;
             
             snapshotView.layer.transform=transform;
@@ -134,7 +134,7 @@
         CGRect newFrame = baseView.frame;
         newFrame.origin.y = newFrame.size.height;
         
-        [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             maskView.alpha=0;
             snapshotView.layer.transform=CATransform3DIdentity;
             baseView.frame=newFrame;

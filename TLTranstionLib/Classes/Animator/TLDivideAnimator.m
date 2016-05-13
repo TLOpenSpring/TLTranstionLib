@@ -62,7 +62,7 @@
         bottomFrame.origin.y=baseView.bounds.size.height;
         
         
-        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             snapshotTop.frame=topFrame;
             snapshotTop.alpha=0;
             
@@ -134,7 +134,7 @@
             bottomFrame.origin.y=height-bottomFrame.size.height;
             
             
-            [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+            [UIView animateWithDuration:[self animatorDuration] animations:^{
                 
                 snapshotTop.frame=topFrame;
                 snapshotBottom.frame=bottomFrame;

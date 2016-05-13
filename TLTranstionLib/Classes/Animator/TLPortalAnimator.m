@@ -68,7 +68,7 @@
     //删除fromView,只保留屏幕截图那部分
     [model.fromView removeFromSuperview];
     
-     NSTimeInterval duration = [self transitionDuration:contenxt];
+     NSTimeInterval duration = [self animatorDuration];
     
     [UIView animateWithDuration:duration animations:^{
         //// Open the portal doors of the from-view
@@ -126,7 +126,7 @@
     
     [model.containerView addSubview:rightHandView];
     
-     NSTimeInterval duration = [self transitionDuration:contenxt];
+     NSTimeInterval duration = [self animatorDuration];
     
     
     [UIView animateWithDuration:duration animations:^{

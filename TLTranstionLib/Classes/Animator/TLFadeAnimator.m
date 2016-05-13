@@ -26,7 +26,7 @@
         
         transitionModel.toView.alpha=0;
         
-        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             transitionModel.toView.alpha=1.0;
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
@@ -34,7 +34,7 @@
     }else if(self.operation == UINavigationControllerOperationPop){
         [transitionModel.containerView insertSubview:transitionModel.toView belowSubview:transitionModel.fromView];
         
-        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+        [UIView animateWithDuration:[self animatorDuration] animations:^{
             transitionModel.fromView.alpha=0.0;
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:![transitionContext transitionWasCancelled]];

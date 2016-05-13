@@ -20,11 +20,12 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
+    self.tableView.backgroundColor=[UIColor whiteColor];
     self.title=@"转场动画集合";
     
     _arrayData=@[@"System",@"Fade",@"Devide",@"FromTop",@"FromLeft",
                  @"FlipOver",@"CoverFromTop",@"CoverFromBottom",@"cube",
-                 @"Portal",@"Card",@"Fold",@"Explode",@"Turn",@"Geo"];
+                 @"Portal",@"Card",@"Fold",@"Explode",@"Turn",@"Geo",@"Flip"];
     [self initialization];
     
     [self.tableView reloadData];
@@ -59,7 +60,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *style=[_arrayData objectAtIndex:indexPath.row];
    
-    
     if([style isEqualToString:@"System"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleSystem;
       
@@ -94,6 +94,9 @@
     }else if([style isEqualToString:@"Geo"]){
         self.navigationController.animatorStyle=TLAnmimatorStyleGeo;
         self.navigationController.animatorDuration=1;
+    }else if([style isEqualToString:@"Flip"]){
+        self.navigationController.animatorStyle=TLAnmimatorStyleFlip;
+        self.navigationController.animatorDuration=3;
     }
     
     TLTest1Ctrl *detailvc=[[TLTest1Ctrl alloc]init];
